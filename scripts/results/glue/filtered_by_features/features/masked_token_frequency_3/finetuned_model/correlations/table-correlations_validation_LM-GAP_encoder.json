@@ -1,0 +1,107 @@
+{
+    "column_names": [
+        "Nazwa zbioru",
+        "Poprzedni współczynnik korelacji Pearsona",
+        "Współczynnik korelacji Pearsona",
+        "p-value ze współczynnika korelacji Pearsona",
+        "Poprzedni współczynnik korelacji Spearmana",
+        "Współczynnik korelacji Spearmana",
+        "p-value ze współczynnika korelacji Spearmana"
+    ],
+    "row_names": [
+        "CoLA",
+        "MNLI-m",
+        "MNLI-mm",
+        "MRPC",
+        "QNLI",
+        "QQP",
+        "RTE",
+        "SST-2",
+        "STS-B",
+        "AVG"
+    ],
+    "row_data": [
+        {
+            "Poprzedni współczynnik korelacji Pearsona": "0.7173",
+            "Współczynnik korelacji Pearsona": "0.6695 ↓",
+            "p-value ze współczynnika korelacji Pearsona": "2.52e-04",
+            "Poprzedni współczynnik korelacji Spearmana": "0.7886",
+            "Współczynnik korelacji Spearmana": "0.7475 ↓",
+            "p-value ze współczynnika korelacji Spearmana": "1.76e-05"
+        },
+        {
+            "Poprzedni współczynnik korelacji Pearsona": "0.6098",
+            "Współczynnik korelacji Pearsona": "0.5424 ↓",
+            "p-value ze współczynnika korelacji Pearsona": "2.37e-03",
+            "Poprzedni współczynnik korelacji Spearmana": "0.7703",
+            "Współczynnik korelacji Spearmana": "0.7639 ↓",
+            "p-value ze współczynnika korelacji Spearmana": "1.42e-06"
+        },
+        {
+            "Poprzedni współczynnik korelacji Pearsona": "0.6246",
+            "Współczynnik korelacji Pearsona": "0.557 ↓",
+            "p-value ze współczynnika korelacji Pearsona": "1.70e-03",
+            "Poprzedni współczynnik korelacji Spearmana": "0.7739",
+            "Współczynnik korelacji Spearmana": "0.7719 ↓",
+            "p-value ze współczynnika korelacji Spearmana": "9.40e-07"
+        },
+        {
+            "Poprzedni współczynnik korelacji Pearsona": "0.2644",
+            "Współczynnik korelacji Pearsona": "0.2293 ↓",
+            "p-value ze współczynnika korelacji Pearsona": "2.32e-01",
+            "Poprzedni współczynnik korelacji Spearmana": "0.5176",
+            "Współczynnik korelacji Spearmana": "0.4957 ↓",
+            "p-value ze współczynnika korelacji Spearmana": "6.25e-03"
+        },
+        {
+            "Poprzedni współczynnik korelacji Pearsona": "0.6656",
+            "Współczynnik korelacji Pearsona": "0.6012 ↓",
+            "p-value ze współczynnika korelacji Pearsona": "5.63e-04",
+            "Poprzedni współczynnik korelacji Spearmana": "0.7028",
+            "Współczynnik korelacji Spearmana": "0.6836 ↓",
+            "p-value ze współczynnika korelacji Spearmana": "4.36e-05"
+        },
+        {
+            "Poprzedni współczynnik korelacji Pearsona": "0.4559",
+            "Współczynnik korelacji Pearsona": "0.4526 ↓",
+            "p-value ze współczynnika korelacji Pearsona": "1.37e-02",
+            "Poprzedni współczynnik korelacji Spearmana": "0.2576",
+            "Współczynnik korelacji Spearmana": "0.2586 ↑",
+            "p-value ze współczynnika korelacji Spearmana": "1.76e-01"
+        },
+        {
+            "Poprzedni współczynnik korelacji Pearsona": "0.3521",
+            "Współczynnik korelacji Pearsona": "0.312 ↓",
+            "p-value ze współczynnika korelacji Pearsona": "9.94e-02",
+            "Poprzedni współczynnik korelacji Spearmana": "0.6606",
+            "Współczynnik korelacji Spearmana": "0.6487 ↓",
+            "p-value ze współczynnika korelacji Spearmana": "1.41e-04"
+        },
+        {
+            "Poprzedni współczynnik korelacji Pearsona": "0.573",
+            "Współczynnik korelacji Pearsona": "0.4947 ↓",
+            "p-value ze współczynnika korelacji Pearsona": "6.37e-03",
+            "Poprzedni współczynnik korelacji Spearmana": "0.8822",
+            "Współczynnik korelacji Spearmana": "0.8731 ↓",
+            "p-value ze współczynnika korelacji Spearmana": "6.53e-10"
+        },
+        {
+            "Poprzedni współczynnik korelacji Pearsona": "0.5606",
+            "Współczynnik korelacji Pearsona": "0.4975 ↓",
+            "p-value ze współczynnika korelacji Pearsona": "6.04e-03",
+            "Poprzedni współczynnik korelacji Spearmana": "0.7136",
+            "Współczynnik korelacji Spearmana": "0.6979 ↓",
+            "p-value ze współczynnika korelacji Spearmana": "2.57e-05"
+        },
+        {
+            "Poprzedni współczynnik korelacji Pearsona": "0.2863",
+            "Współczynnik korelacji Pearsona": "0.2309 ↓",
+            "p-value ze współczynnika korelacji Pearsona": "2.28e-01",
+            "Poprzedni współczynnik korelacji Spearmana": "0.6897",
+            "Współczynnik korelacji Spearmana": "0.669 ↓",
+            "p-value ze współczynnika korelacji Spearmana": "7.26e-05"
+        }
+    ],
+    "one_line_row_names": [],
+    "skip_row_name": false
+}

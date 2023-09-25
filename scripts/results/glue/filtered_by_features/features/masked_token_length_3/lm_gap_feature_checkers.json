@@ -1,0 +1,10 @@
+{
+    "checkers": [
+        {
+            "name": "masked_token_length",
+            "invert_checking": false,
+            "min_masked_token_length": 8,
+            "max_masked_token_length": 15
+        }
+    ]
+}

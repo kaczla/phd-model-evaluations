@@ -1,0 +1,714 @@
+[
+    {
+        "model_name": "EleutherAI/gpt-neo-125M",
+        "model_class_name": "GPTNeoForCausalLM",
+        "model_human_name": "GPT-Neo-125M",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.9051637074466425
+    },
+    {
+        "model_name": "EleutherAI/pythia-160m",
+        "model_class_name": "GPTNeoXForCausalLM",
+        "model_human_name": "Pythia-160M",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.859571566108529
+    },
+    {
+        "model_name": "EleutherAI/pythia-160m-deduped",
+        "model_class_name": "GPTNeoXForCausalLM",
+        "model_human_name": "Pythia-160M-deduped",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.809168637860519
+    },
+    {
+        "model_name": "EleutherAI/pythia-410m",
+        "model_class_name": "GPTNeoXForCausalLM",
+        "model_human_name": "Pythia-410M",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.5227761300971085
+    },
+    {
+        "model_name": "EleutherAI/pythia-410m-deduped",
+        "model_class_name": "GPTNeoXForCausalLM",
+        "model_human_name": "Pythia-410M-deduped",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.5111768413540467
+    },
+    {
+        "model_name": "EleutherAI/pythia-70m",
+        "model_class_name": "GPTNeoXForCausalLM",
+        "model_human_name": "Pythia-70M",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 4.215822973324142
+    },
+    {
+        "model_name": "EleutherAI/pythia-70m-deduped",
+        "model_class_name": "GPTNeoXForCausalLM",
+        "model_human_name": "Pythia-70M-deduped",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 4.191611835570331
+    },
+    {
+        "model_name": "albert-base-v2",
+        "model_class_name": "AlbertForMaskedLM",
+        "model_human_name": "ALBERT-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 2.616632336627937
+    },
+    {
+        "model_name": "albert-large-v2",
+        "model_class_name": "AlbertForMaskedLM",
+        "model_human_name": "ALBERT-large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.269366214687596
+    },
+    {
+        "model_name": "albert-xlarge-v2",
+        "model_class_name": "AlbertForMaskedLM",
+        "model_human_name": "ALBERT-xlarge",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.2461614758668544
+    },
+    {
+        "model_name": "albert-xxlarge-v2",
+        "model_class_name": "AlbertForMaskedLM",
+        "model_human_name": "ALBERT-xxlarge",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.8339215485635632
+    },
+    {
+        "model_name": "allenai/biomed_roberta_base",
+        "model_class_name": "RobertaForMaskedLM",
+        "model_human_name": "BioMed-RoBERTa-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.1040306559271384
+    },
+    {
+        "model_name": "allenai/longformer-base-4096",
+        "model_class_name": "LongformerForMaskedLM",
+        "model_human_name": "Longformer-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 0.979643741435302
+    },
+    {
+        "model_name": "allenai/longformer-large-4096",
+        "model_class_name": "LongformerForMaskedLM",
+        "model_human_name": "Longformer-large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 0.28663101987320005
+    },
+    {
+        "model_name": "allenai/scibert_scivocab_cased",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "SciBERT-cased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.6896977391325194
+    },
+    {
+        "model_name": "allenai/scibert_scivocab_uncased",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "SciBERT-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.5999802205631202
+    },
+    {
+        "model_name": "asi/gpt-fr-cased-base",
+        "model_class_name": "GPT2LMHeadModel",
+        "model_human_name": "GPT-fr-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 4.641653190827422
+    },
+    {
+        "model_name": "asi/gpt-fr-cased-small",
+        "model_class_name": "GPT2LMHeadModel",
+        "model_human_name": "GPT-fr-small",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 4.708318639495036
+    },
+    {
+        "model_name": "bert-base-cased",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "BERT-base-cased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 2.2533022107943883
+    },
+    {
+        "model_name": "bert-base-german-cased",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "German-BERT-base-cased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 2.3122231624598775
+    },
+    {
+        "model_name": "bert-base-multilingual-cased",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "BERT-base-multilingual-cased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.9896992633038126
+    },
+    {
+        "model_name": "bert-base-multilingual-uncased",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "BERT-base-multilingual-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 2.078475174441397
+    },
+    {
+        "model_name": "bert-base-uncased",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "BERT-base-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 2.2077307167067706
+    },
+    {
+        "model_name": "bert-large-cased",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "BERT-large-cased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 2.824545754934575
+    },
+    {
+        "model_name": "bert-large-uncased",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "BERT-large-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 2.798205927908194
+    },
+    {
+        "model_name": "camembert-base",
+        "model_class_name": "CamembertForMaskedLM",
+        "model_human_name": "CamemBERT-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.5172568189165985
+    },
+    {
+        "model_name": "cerebras/Cerebras-GPT-111M",
+        "model_class_name": "GPT2LMHeadModel",
+        "model_human_name": "Cerebras-GPT-111M",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 4.260584203777395
+    },
+    {
+        "model_name": "cerebras/Cerebras-GPT-256M",
+        "model_class_name": "GPT2LMHeadModel",
+        "model_human_name": "Cerebras-GPT-256M",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.983878158806731
+    },
+    {
+        "model_name": "dbmdz/german-gpt2",
+        "model_class_name": "GPT2LMHeadModel",
+        "model_human_name": "German-GPT-2",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.6916310669649417
+    },
+    {
+        "model_name": "distilbert-base-cased",
+        "model_class_name": "DistilBertForMaskedLM",
+        "model_human_name": "DistilBERT-base-cased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 2.4358471549942613
+    },
+    {
+        "model_name": "distilbert-base-uncased",
+        "model_class_name": "DistilBertForMaskedLM",
+        "model_human_name": "DistilBERT-base-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.9725918401889757
+    },
+    {
+        "model_name": "distilgpt2",
+        "model_class_name": "GPT2LMHeadModel",
+        "model_human_name": "DistilGPT-2",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 4.123042457809776
+    },
+    {
+        "model_name": "distilroberta-base",
+        "model_class_name": "RobertaForMaskedLM",
+        "model_human_name": "DistilRoBERTa-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 0.6564009091941925
+    },
+    {
+        "model_name": "emilyalsentzer/Bio_ClinicalBERT",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "ClinicalBERT",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 2.1766590818826734
+    },
+    {
+        "model_name": "facebook/opt-125m",
+        "model_class_name": "OPTForCausalLM",
+        "model_human_name": "OPT-125M",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 4.310103178796498
+    },
+    {
+        "model_name": "facebook/opt-350m",
+        "model_class_name": "OPTForCausalLM",
+        "model_human_name": "OPT-350M",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 4.175370339729525
+    },
+    {
+        "model_name": "google/byt5-base",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "ByT5-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 2.701072097965218
+    },
+    {
+        "model_name": "google/byt5-small",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "ByT5-small",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 11.398174647636178
+    },
+    {
+        "model_name": "google/flan-t5-base",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "FLAN-T5-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.5265400952113835
+    },
+    {
+        "model_name": "google/flan-t5-large",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "FLAN-T5-large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 0.7569475824753397
+    },
+    {
+        "model_name": "google/flan-t5-small",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "FLAN-T5-small",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 2.03395565147372
+    },
+    {
+        "model_name": "google/long-t5-local-base",
+        "model_class_name": "LongT5ForConditionalGeneration",
+        "model_human_name": "LongT5-Local-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 387.9384417586198
+    },
+    {
+        "model_name": "google/long-t5-local-large",
+        "model_class_name": "LongT5ForConditionalGeneration",
+        "model_human_name": "LongT5-Local-large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 299.49283430658636
+    },
+    {
+        "model_name": "google/long-t5-tglobal-base",
+        "model_class_name": "LongT5ForConditionalGeneration",
+        "model_human_name": "LongT5-TGlobal-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 0.5195829732276788
+    },
+    {
+        "model_name": "google/long-t5-tglobal-large",
+        "model_class_name": "LongT5ForConditionalGeneration",
+        "model_human_name": "LongT5-TGlobal-large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 328.91925380075094
+    },
+    {
+        "model_name": "google/mobilebert-uncased",
+        "model_class_name": "MobileBertForMaskedLM",
+        "model_human_name": "MobileBERT-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 2.0052713490654868
+    },
+    {
+        "model_name": "google/mt5-base",
+        "model_class_name": "MT5ForConditionalGeneration",
+        "model_human_name": "mT5-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 14.83831321032927
+    },
+    {
+        "model_name": "google/mt5-small",
+        "model_class_name": "MT5ForConditionalGeneration",
+        "model_human_name": "mT5-small",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 26.47545183214912
+    },
+    {
+        "model_name": "google/switch-base-8",
+        "model_class_name": "SwitchTransformersForConditionalGeneration",
+        "model_human_name": "Switch-base-8",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 22.619788864012957
+    },
+    {
+        "model_name": "google/t5-base-lm-adapt",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "T5-base-v1.1-lm-adapt",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 5.75533698158013
+    },
+    {
+        "model_name": "google/t5-efficient-base",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "T5-efficient-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 12.001556333696746
+    },
+    {
+        "model_name": "google/t5-efficient-mini",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "T5-efficient-mini",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 16.053548752171505
+    },
+    {
+        "model_name": "google/t5-efficient-small",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "T5-efficient-small",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 6.6852480547220585
+    },
+    {
+        "model_name": "google/t5-efficient-tiny",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "T5-efficient-tiny",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 18.040165670265136
+    },
+    {
+        "model_name": "google/t5-small-lm-adapt",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "T5-small-v1.1-lm-adapt",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.2294604295173874
+    },
+    {
+        "model_name": "google/t5-v1_1-base",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "T5-base-v1.1",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 48.67809276538952
+    },
+    {
+        "model_name": "google/t5-v1_1-large",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "T5-large-v1.1",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 23.073642581439703
+    },
+    {
+        "model_name": "google/t5-v1_1-small",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "T5-small-v1.1",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 11.244396002517622
+    },
+    {
+        "model_name": "gpt2",
+        "model_class_name": "GPT2LMHeadModel",
+        "model_human_name": "GPT-2-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.8428945834032966
+    },
+    {
+        "model_name": "gpt2-large",
+        "model_class_name": "GPT2LMHeadModel",
+        "model_human_name": "GPT-2-large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.5234654558883918
+    },
+    {
+        "model_name": "gpt2-medium",
+        "model_class_name": "GPT2LMHeadModel",
+        "model_human_name": "GPT-2-medium",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.6243278564813313
+    },
+    {
+        "model_name": "microsoft/biogpt",
+        "model_class_name": "BioGptForCausalLM",
+        "model_human_name": "BioGPT",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 4.069143675610064
+    },
+    {
+        "model_name": "microsoft/codebert-base-mlm",
+        "model_class_name": "RobertaForMaskedLM",
+        "model_human_name": "CodeBERT-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.510675054189341
+    },
+    {
+        "model_name": "nreimers/MiniLMv2-L12-H384-distilled-from-RoBERTa-Large",
+        "model_class_name": "RobertaForMaskedLM",
+        "model_human_name": "MiniLM-L12-H384-RoBERTa-large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 11.174862557892057
+    },
+    {
+        "model_name": "nreimers/MiniLMv2-L6-H384-distilled-from-BERT-Base",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "MiniLM-L6-H384-BERT-base-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 11.350935739011772
+    },
+    {
+        "model_name": "nreimers/MiniLMv2-L6-H384-distilled-from-BERT-Large",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "MiniLM-L6-H384-BERT-large-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 10.986365206782892
+    },
+    {
+        "model_name": "nreimers/MiniLMv2-L6-H384-distilled-from-RoBERTa-Large",
+        "model_class_name": "RobertaForMaskedLM",
+        "model_human_name": "MiniLM-L6-H384-RoBERTa-large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 10.942432291582742
+    },
+    {
+        "model_name": "nreimers/MiniLMv2-L6-H768-distilled-from-BERT-Base",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "MiniLM-L6-H768-BERT-base-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 11.945776252196247
+    },
+    {
+        "model_name": "nreimers/MiniLMv2-L6-H768-distilled-from-BERT-Large",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "MiniLM-L6-H768-BERT-large-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 10.752326441788728
+    },
+    {
+        "model_name": "nreimers/MiniLMv2-L6-H768-distilled-from-RoBERTa-Large",
+        "model_class_name": "RobertaForMaskedLM",
+        "model_human_name": "MiniLM-L6-H768-RoBERTa-large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 11.541373230911454
+    },
+    {
+        "model_name": "nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large",
+        "model_class_name": "XLMRobertaForMaskedLM",
+        "model_human_name": "MiniLM-L12-H384-XLMR-Large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 12.433414000667346
+    },
+    {
+        "model_name": "nreimers/mMiniLMv2-L6-H384-distilled-from-XLMR-Large",
+        "model_class_name": "XLMRobertaForMaskedLM",
+        "model_human_name": "MiniLM-L6-H384-XLMR-Large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 12.431701477396363
+    },
+    {
+        "model_name": "prajjwal1/bert-medium",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "BERT-medium-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.6179130345741364
+    },
+    {
+        "model_name": "prajjwal1/bert-mini",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "BERT-mini-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.6210511412779853
+    },
+    {
+        "model_name": "prajjwal1/bert-small",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "BERT-small-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 1.6207562570510348
+    },
+    {
+        "model_name": "prajjwal1/bert-tiny",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "BERT-tiny-uncased",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 0.9761298481225062
+    },
+    {
+        "model_name": "roberta-base",
+        "model_class_name": "RobertaForMaskedLM",
+        "model_human_name": "RoBERTa-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 0.8985877576143304
+    },
+    {
+        "model_name": "roberta-large",
+        "model_class_name": "RobertaForMaskedLM",
+        "model_human_name": "RoBERTa-large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 0.26017839184241026
+    },
+    {
+        "model_name": "sdadas/polish-gpt2-large",
+        "model_class_name": "GPT2LMHeadModel",
+        "model_human_name": "PolishGPT-2-large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.265819851435604
+    },
+    {
+        "model_name": "sdadas/polish-gpt2-medium",
+        "model_class_name": "GPT2LMHeadModel",
+        "model_human_name": "PolishGPT-2-medium",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.45007547797896
+    },
+    {
+        "model_name": "sdadas/polish-gpt2-small",
+        "model_class_name": "GPT2LMHeadModel",
+        "model_human_name": "PolishGPT-2-small",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.755492229022348
+    },
+    {
+        "model_name": "sdadas/polish-roberta-base-v1",
+        "model_class_name": "RobertaForMaskedLM",
+        "model_human_name": "PolishRoBERT-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 0.5841224471593698
+    },
+    {
+        "model_name": "stefan-it/german-gpt2-larger",
+        "model_class_name": "GPT2LMHeadModel",
+        "model_human_name": "German-GPT-2-larger",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 3.761618588576576
+    },
+    {
+        "model_name": "t5-base",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "T5-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 14.97985503441588
+    },
+    {
+        "model_name": "t5-large",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "T5-large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 14.573569721056748
+    },
+    {
+        "model_name": "t5-small",
+        "model_class_name": "T5ForConditionalGeneration",
+        "model_human_name": "T5-small",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 9.142654856365793
+    },
+    {
+        "model_name": "xlm-roberta-base",
+        "model_class_name": "XLMRobertaForMaskedLM",
+        "model_human_name": "XLM-RoBERTa-base",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 8.501767421848683
+    },
+    {
+        "model_name": "xlm-roberta-large",
+        "model_class_name": "XLMRobertaForMaskedLM",
+        "model_human_name": "XLM-RoBERTa-large",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 0.9016497756130604
+    },
+    {
+        "model_name": "yiyanghkust/finbert-pretrain",
+        "model_class_name": "BertForMaskedLM",
+        "model_human_name": "FinBERT",
+        "join_examples": true,
+        "sequence_length": 512,
+        "loss": 2.9033682362580384
+    }
+]

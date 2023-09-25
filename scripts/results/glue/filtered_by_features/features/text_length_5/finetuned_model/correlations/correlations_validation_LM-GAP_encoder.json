@@ -1,0 +1,242 @@
+[
+    {
+        "x_name": "CoLA",
+        "y_name": "LM-GAP",
+        "pearson_correlation": {
+            "correlation": 0.7651109908853136,
+            "p_value": 8.39152443328775e-06
+        },
+        "spearman_correlation": {
+            "correlation": 0.8636276366718776,
+            "p_value": 2.7087474088634687e-08
+        },
+        "x_higher_better": true,
+        "y_higher_better": false,
+        "previous_pearson_correlation": {
+            "correlation": 0.7172875814510343,
+            "p_value": 5.45327256105663e-05
+        },
+        "previous_spearman_correlation": {
+            "correlation": 0.7886132094331177,
+            "p_value": 2.8300793736128333e-06
+        },
+        "x_values": null,
+        "y_values": null
+    },
+    {
+        "x_name": "MNLI-m",
+        "y_name": "LM-GAP",
+        "pearson_correlation": {
+            "correlation": 0.5415625124794183,
+            "p_value": 0.002412603814006966
+        },
+        "spearman_correlation": {
+            "correlation": 0.809459299156262,
+            "p_value": 1.0549044470446115e-07
+        },
+        "x_higher_better": true,
+        "y_higher_better": false,
+        "previous_pearson_correlation": {
+            "correlation": 0.6098280448971156,
+            "p_value": 0.0004446056958125779
+        },
+        "previous_spearman_correlation": {
+            "correlation": 0.770291913713217,
+            "p_value": 1.0240340874981847e-06
+        },
+        "x_values": null,
+        "y_values": null
+    },
+    {
+        "x_name": "MNLI-mm",
+        "y_name": "LM-GAP",
+        "pearson_correlation": {
+            "correlation": 0.561183277558801,
+            "p_value": 0.001539435993799778
+        },
+        "spearman_correlation": {
+            "correlation": 0.7926108374384234,
+            "p_value": 2.9742211297762945e-07
+        },
+        "x_higher_better": true,
+        "y_higher_better": false,
+        "previous_pearson_correlation": {
+            "correlation": 0.6246141400347108,
+            "p_value": 0.00029254378593157544
+        },
+        "previous_spearman_correlation": {
+            "correlation": 0.7738916256157633,
+            "p_value": 8.468498282784679e-07
+        },
+        "x_values": null,
+        "y_values": null
+    },
+    {
+        "x_name": "MRPC",
+        "y_name": "LM-GAP",
+        "pearson_correlation": {
+            "correlation": 0.1940042563986295,
+            "p_value": 0.3132568013087153
+        },
+        "spearman_correlation": {
+            "correlation": 0.5296871311279816,
+            "p_value": 0.0031261359454540123
+        },
+        "x_higher_better": true,
+        "y_higher_better": false,
+        "previous_pearson_correlation": {
+            "correlation": 0.26440554768860747,
+            "p_value": 0.1657324081480887
+        },
+        "previous_spearman_correlation": {
+            "correlation": 0.5176151918604136,
+            "p_value": 0.00403022221875783
+        },
+        "x_values": null,
+        "y_values": null
+    },
+    {
+        "x_name": "QNLI",
+        "y_name": "LM-GAP",
+        "pearson_correlation": {
+            "correlation": 0.592696521669161,
+            "p_value": 0.0007041817239779643
+        },
+        "spearman_correlation": {
+            "correlation": 0.7254588058475933,
+            "p_value": 8.480378604175844e-06
+        },
+        "x_higher_better": true,
+        "y_higher_better": false,
+        "previous_pearson_correlation": {
+            "correlation": 0.6655952348977773,
+            "p_value": 8.140808106923802e-05
+        },
+        "previous_spearman_correlation": {
+            "correlation": 0.7027959161572781,
+            "p_value": 2.1285893646595573e-05
+        },
+        "x_values": null,
+        "y_values": null
+    },
+    {
+        "x_name": "QQP",
+        "y_name": "LM-GAP",
+        "pearson_correlation": {
+            "correlation": 0.39766671326024605,
+            "p_value": 0.03265533999668005
+        },
+        "spearman_correlation": {
+            "correlation": 0.22463054187192114,
+            "p_value": 0.24139457634527822
+        },
+        "x_higher_better": true,
+        "y_higher_better": false,
+        "previous_pearson_correlation": {
+            "correlation": 0.45593677719635084,
+            "p_value": 0.012928076919529713
+        },
+        "previous_spearman_correlation": {
+            "correlation": 0.2576354679802955,
+            "p_value": 0.17724418226448452
+        },
+        "x_values": null,
+        "y_values": null
+    },
+    {
+        "x_name": "RTE",
+        "y_name": "LM-GAP",
+        "pearson_correlation": {
+            "correlation": 0.2863282099784587,
+            "p_value": 0.13211069537768716
+        },
+        "spearman_correlation": {
+            "correlation": 0.6827768967150389,
+            "p_value": 4.486834328635804e-05
+        },
+        "x_higher_better": true,
+        "y_higher_better": false,
+        "previous_pearson_correlation": {
+            "correlation": 0.3521482686454824,
+            "p_value": 0.061002352069775126
+        },
+        "previous_spearman_correlation": {
+            "correlation": 0.6605847982302597,
+            "p_value": 9.617170979906456e-05
+        },
+        "x_values": null,
+        "y_values": null
+    },
+    {
+        "x_name": "SST-2",
+        "y_name": "LM-GAP",
+        "pearson_correlation": {
+            "correlation": 0.5054761334298089,
+            "p_value": 0.005156116036834382
+        },
+        "spearman_correlation": {
+            "correlation": 0.8824256787728343,
+            "p_value": 2.4564325904761365e-10
+        },
+        "x_higher_better": true,
+        "y_higher_better": false,
+        "previous_pearson_correlation": {
+            "correlation": 0.5730170717177547,
+            "p_value": 0.001158193082206922
+        },
+        "previous_spearman_correlation": {
+            "correlation": 0.8821791911530654,
+            "p_value": 2.523054589037432e-10
+        },
+        "x_values": null,
+        "y_values": null
+    },
+    {
+        "x_name": "STS-B",
+        "y_name": "LM-GAP",
+        "pearson_correlation": {
+            "correlation": 0.5152957800879024,
+            "p_value": 0.0042273875298198885
+        },
+        "spearman_correlation": {
+            "correlation": 0.7488607028104189,
+            "p_value": 2.970359666003728e-06
+        },
+        "x_higher_better": true,
+        "y_higher_better": false,
+        "previous_pearson_correlation": {
+            "correlation": 0.5605737181657549,
+            "p_value": 0.0015617225263881145
+        },
+        "previous_spearman_correlation": {
+            "correlation": 0.7136346894874288,
+            "p_value": 1.3855657781486986e-05
+        },
+        "x_values": null,
+        "y_values": null
+    },
+    {
+        "x_name": "AVG",
+        "y_name": "LM-GAP",
+        "pearson_correlation": {
+            "correlation": 0.17077496665890646,
+            "p_value": 0.37576290464044587
+        },
+        "spearman_correlation": {
+            "correlation": 0.7147783251231525,
+            "p_value": 1.3227077935502407e-05
+        },
+        "x_higher_better": true,
+        "y_higher_better": false,
+        "previous_pearson_correlation": {
+            "correlation": 0.2863249295965204,
+            "p_value": 0.13211532089848257
+        },
+        "previous_spearman_correlation": {
+            "correlation": 0.6896551724137929,
+            "p_value": 3.49561953224715e-05
+        },
+        "x_values": null,
+        "y_values": null
+    }
+]

@@ -1,0 +1,632 @@
+[
+    {
+        "model_name": "ALBERT-base",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "59958.057620"
+    },
+    {
+        "model_name": "ALBERT-large",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "40587.882371"
+    },
+    {
+        "model_name": "ALBERT-xlarge",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "35509.112759"
+    },
+    {
+        "model_name": "ALBERT-xxlarge",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "20573.436020"
+    },
+    {
+        "model_name": "BERT-base-cased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "31229.734074"
+    },
+    {
+        "model_name": "BERT-base-multilingual-cased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "124603.306558"
+    },
+    {
+        "model_name": "BERT-base-multilingual-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "96491.934382"
+    },
+    {
+        "model_name": "BERT-base-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "39641.529138"
+    },
+    {
+        "model_name": "BERT-large-cased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "20761.898251"
+    },
+    {
+        "model_name": "BERT-large-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "29932.910063"
+    },
+    {
+        "model_name": "BERT-medium-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "70649.604156"
+    },
+    {
+        "model_name": "BERT-mini-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "169661.356662"
+    },
+    {
+        "model_name": "BERT-small-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "88555.393587"
+    },
+    {
+        "model_name": "BERT-tiny-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "356867.656680"
+    },
+    {
+        "model_name": "BioGPT",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "361147.667846"
+    },
+    {
+        "model_name": "BioMed-RoBERTa-base",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "36666.261125"
+    },
+    {
+        "model_name": "ByT5-base",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "926585.225202"
+    },
+    {
+        "model_name": "ByT5-small",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "696324.049390"
+    },
+    {
+        "model_name": "CamemBERT-base",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "459538.192276"
+    },
+    {
+        "model_name": "Cerebras-GPT-111M",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "300350.945731"
+    },
+    {
+        "model_name": "Cerebras-GPT-256M",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "259272.579366"
+    },
+    {
+        "model_name": "ClinicalBERT",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "263223.601486"
+    },
+    {
+        "model_name": "CodeBERT-base",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "230104.539854"
+    },
+    {
+        "model_name": "DistilBERT-base-cased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "40232.069698"
+    },
+    {
+        "model_name": "DistilBERT-base-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "36510.961604"
+    },
+    {
+        "model_name": "DistilGPT-2",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "262291.911041"
+    },
+    {
+        "model_name": "DistilRoBERTa-base",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "16010.020015"
+    },
+    {
+        "model_name": "FLAN-T5-base",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "524705.182653"
+    },
+    {
+        "model_name": "FLAN-T5-large",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "813216.803582"
+    },
+    {
+        "model_name": "FLAN-T5-small",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "802012.392406"
+    },
+    {
+        "model_name": "FinBERT",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "193539.989480"
+    },
+    {
+        "model_name": "GPT-2-base",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "199652.513406"
+    },
+    {
+        "model_name": "GPT-2-large",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "147512.804164"
+    },
+    {
+        "model_name": "GPT-2-medium",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "156298.838875"
+    },
+    {
+        "model_name": "GPT-Neo-125M",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "233136.285605"
+    },
+    {
+        "model_name": "GPT-fr-base",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "799202.038242"
+    },
+    {
+        "model_name": "GPT-fr-small",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "793652.808683"
+    },
+    {
+        "model_name": "German-BERT-base-cased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "800057.577123"
+    },
+    {
+        "model_name": "LongT5-Local-base",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "1009561.838578"
+    },
+    {
+        "model_name": "LongT5-TGlobal-base",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "831823.630108"
+    },
+    {
+        "model_name": "MiniLM-L12-H384-RoBERTa-large",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "867971.988120"
+    },
+    {
+        "model_name": "MiniLM-L12-H384-XLMR-Large",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "856384.784582"
+    },
+    {
+        "model_name": "MiniLM-L6-H384-BERT-base-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "875225.769479"
+    },
+    {
+        "model_name": "MiniLM-L6-H384-BERT-large-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "852259.132856"
+    },
+    {
+        "model_name": "MiniLM-L6-H384-RoBERTa-large",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "868898.504569"
+    },
+    {
+        "model_name": "MiniLM-L6-H384-XLMR-Large",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "864482.328872"
+    },
+    {
+        "model_name": "MiniLM-L6-H768-BERT-base-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "880059.869906"
+    },
+    {
+        "model_name": "MiniLM-L6-H768-BERT-large-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "859844.319126"
+    },
+    {
+        "model_name": "MiniLM-L6-H768-RoBERTa-large",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "881919.547898"
+    },
+    {
+        "model_name": "MobileBERT-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "47381.000120"
+    },
+    {
+        "model_name": "OPT-125M",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "207009.637969"
+    },
+    {
+        "model_name": "OPT-350M",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "184635.759770"
+    },
+    {
+        "model_name": "PolishGPT-2-large",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "851505.541146"
+    },
+    {
+        "model_name": "PolishGPT-2-medium",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "852566.101380"
+    },
+    {
+        "model_name": "PolishGPT-2-small",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "865399.842226"
+    },
+    {
+        "model_name": "PolishRoBERT-base",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "815965.103882"
+    },
+    {
+        "model_name": "Pythia-160M",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "257294.133905"
+    },
+    {
+        "model_name": "Pythia-160M-deduped",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "231772.169222"
+    },
+    {
+        "model_name": "Pythia-410M",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "194716.940354"
+    },
+    {
+        "model_name": "Pythia-410M-deduped",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "190522.564001"
+    },
+    {
+        "model_name": "Pythia-70M",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "359262.972779"
+    },
+    {
+        "model_name": "Pythia-70M-deduped",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "325450.454532"
+    },
+    {
+        "model_name": "RoBERTa-base",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "13601.308357"
+    },
+    {
+        "model_name": "RoBERTa-large",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "9385.315149"
+    },
+    {
+        "model_name": "SciBERT-cased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "108020.893641"
+    },
+    {
+        "model_name": "SciBERT-uncased",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "88185.472519"
+    },
+    {
+        "model_name": "SportsBERT",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "394201.958338"
+    },
+    {
+        "model_name": "Switch-base-8",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "27024.068387"
+    },
+    {
+        "model_name": "T5-base",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "37750.472289"
+    },
+    {
+        "model_name": "T5-base-v1.1",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "711482.460553"
+    },
+    {
+        "model_name": "T5-base-v1.1-lm-adapt",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "599487.499101"
+    },
+    {
+        "model_name": "T5-efficient-base",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "554366.404180"
+    },
+    {
+        "model_name": "T5-efficient-large",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "520207.326939"
+    },
+    {
+        "model_name": "T5-efficient-mini",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "751274.060476"
+    },
+    {
+        "model_name": "T5-efficient-small",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "704329.767792"
+    },
+    {
+        "model_name": "T5-efficient-tiny",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "759122.409114"
+    },
+    {
+        "model_name": "T5-large",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "23883.725076"
+    },
+    {
+        "model_name": "T5-large-v1.1",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "707405.506171"
+    },
+    {
+        "model_name": "T5-large-v1.1-lm-adapt",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "845292.141749"
+    },
+    {
+        "model_name": "T5-small",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "100536.922619"
+    },
+    {
+        "model_name": "T5-small-v1.1",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "728991.894036"
+    },
+    {
+        "model_name": "T5-small-v1.1-lm-adapt",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "872310.898235"
+    },
+    {
+        "model_name": "XLM-100-lang",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "171156.119705"
+    },
+    {
+        "model_name": "XLM-17-lang",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "272220.542822"
+    },
+    {
+        "model_name": "XLM-RoBERTa-base",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "77181.280957"
+    },
+    {
+        "model_name": "XLM-RoBERTa-large",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "57252.799547"
+    },
+    {
+        "model_name": "XLM-en",
+        "depth": "1",
+        "method": "simple",
+        "top_k": "15",
+        "PerplexityHashed": "867963.043852"
+    },
+    {
+        "model_name": "mT5-base",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "307836.783606"
+    },
+    {
+        "model_name": "mT5-large",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "235063.068717"
+    },
+    {
+        "model_name": "mT5-small",
+        "depth": "1",
+        "method": "",
+        "top_k": "15",
+        "PerplexityHashed": "368727.952759"
+    }
+]

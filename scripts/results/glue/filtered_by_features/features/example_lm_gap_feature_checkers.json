@@ -1,0 +1,47 @@
+{
+    "checkers": [
+        {
+            "name": "text_length",
+            "invert_checking": false,
+            "min_text_length": 9,
+            "max_text_length": 25
+        },
+        {
+            "name": "masked_token_length",
+            "invert_checking": false,
+            "min_masked_token_length": 4,
+            "max_masked_token_length": 9
+        },
+        {
+            "name": "left_context_length",
+            "invert_checking": false,
+            "min_left_context_length": 3,
+            "max_left_context_length": 50
+        },
+        {
+            "name": "right_context_length",
+            "invert_checking": false,
+            "min_right_context_length": 3,
+            "max_right_context_length": 50
+        },
+        {
+            "name": "gap_with_punctuation",
+            "invert_checking": true,
+            "check_start_with_punctuation": true,
+            "check_end_with_punctuation": true,
+            "check_has_punctuation": false,
+            "check_is_punctuation": false
+        },
+        {
+            "name": "is_number",
+            "invert_checking": true,
+            "check_number": true
+        },
+        {
+            "name": "masked_token_frequency",
+            "invert_checking": false,
+            "min_masked_token_frequency": 3,
+            "max_masked_token_frequency": 1000000
+        }
+    ]
+}

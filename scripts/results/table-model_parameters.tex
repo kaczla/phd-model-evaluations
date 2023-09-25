@@ -1,0 +1,275 @@
+\begin{longtable}{| l | l | l | l | l | l | l | l | l |}
+\caption{Lista publicznie dostępnych neuronowych modeli języka oparte na architekturze Transformer. Oznaczenie \textbf{K}, \textbf{D} oznacza odpowiednio parametry dla koder oraz dekoder architektury Transformer.}\label{table:model_parameters}
+    \\  \hline
+    \rotatebox{90}{\textbf{Rodzaj architektury}} & \rotatebox{90}{\textbf{Liczba parametrów}} & \rotatebox{90}{\textbf{Wielkość słownika}} & \rotatebox{90}{\textbf{Długość sekwencji}} & \rotatebox{90}{\textbf{Liczba warstw (K/D)}} & \rotatebox{90}{\textbf{Wymiar modelu (K/D)}} & \rotatebox{90}{\parbox{3cm}{\textbf{Wymiar liniowej transformacji (K/D)}}} & \rotatebox{90}{\parbox{3cm}{\textbf{Liczba głowic atencji (K/D)}}} & \rotatebox{90}{\parbox{3cm}{\textbf{Wymiar głowicy atencji (K/D)}}} \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{RoBERTa-base}} \\
+    \hline
+    K & - & 50k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{RoBERTa-large}} \\
+    \hline
+    K & - & 50k & 512 & 24 & 1024 & 4096 & 16 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{BERT-base-cased}} \\
+    \hline
+    K & - & 28k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{BERT-base-uncased}} \\
+    \hline
+    K & - & 30k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{BERT-large-cased}} \\
+    \hline
+    K & - & 28k & 512 & 24 & 1024 & 4096 & 16 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{BERT-large-uncased}} \\
+    \hline
+    K & - & 30k & 512 & 24 & 1024 & 4096 & 16 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{BERT-tiny-uncased}} \\
+    \hline
+    K & - & 30k & 512 & 2 & 128 & 512 & 2 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{BERT-mini-uncased}} \\
+    \hline
+    K & - & 30k & 512 & 4 & 256 & 1024 & 4 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{BERT-small-uncased}} \\
+    \hline
+    K & - & 30k & 512 & 4 & 512 & 2048 & 8 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{BERT-medium-uncased}} \\
+    \hline
+    K & - & 30k & 512 & 8 & 512 & 2048 & 8 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{DistilRoBERTa-base}} \\
+    \hline
+    K & - & 50k & 512 & 6 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{DistilBERT-base-cased}} \\
+    \hline
+    K & - & 28k & 512 & 6 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{DistilBERT-base-uncased}} \\
+    \hline
+    K & - & 30k & 512 & 6 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{ALBERT-base}} \\
+    \hline
+    K & - & 30k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{ALBERT-large}} \\
+    \hline
+    K & - & 30k & 512 & 24 & 1024 & 4096 & 16 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{MobileBERT-uncased}} \\
+    \hline
+    K & - & 30k & 512 & 24 & 512 & 512 & 4 & 128 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{FinBERT}} \\
+    \hline
+    K & - & 30k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{SciBERT-uncased}} \\
+    \hline
+    K & - & 31k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{SciBERT-cased}} \\
+    \hline
+    K & - & 31k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{BioMed-RoBERTa-base}} \\
+    \hline
+    K & - & 50k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{ClinicalBERT}} \\
+    \hline
+    K & - & 28k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{CodeBERT-base}} \\
+    \hline
+    K & - & 50k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{XLM-RoBERTa-base}} \\
+    \hline
+    K & - & 250k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{XLM-RoBERTa-large}} \\
+    \hline
+    K & - & 250k & 512 & 24 & 1024 & 4096 & 16 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{BERT-base-multilingual-uncased}} \\
+    \hline
+    K & - & 105k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{BERT-base-multilingual-cased}} \\
+    \hline
+    K & - & 119k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{Longformer-base}} \\
+    \hline
+    K & - & 50k & 4k & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{Longformer-large}} \\
+    \hline
+    K & - & 50k & 4k & 24 & 1024 & 4096 & 16 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{CamemBERT-base}} \\
+    \hline
+    K & - & 32k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{PolishRoBERT-base}} \\
+    \hline
+    K & - & 50k & 514 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{German-BERT-base-cased}} \\
+    \hline
+    K & - & 30k & 512 & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{GPT-2-base}} \\
+    \hline
+    D & - & 50k & 1k & 12 & 768 & 1024 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{GPT-2-medium}} \\
+    \hline
+    D & - & 50k & 1k & 24 & 1024 & 1024 & 16 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{GPT-Neo-125M}} \\
+    \hline
+    D & - & 50k & 2k & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{Pythia-70M}} \\
+    \hline
+    D & - & 50k & 2k & 6 & 512 & 2048 & 8 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{Pythia-70M-deduped}} \\
+    \hline
+    D & - & 50k & 2k & 6 & 512 & 2048 & 8 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{Pythia-160M}} \\
+    \hline
+    D & - & 50k & 2k & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{Pythia-160M-deduped}} \\
+    \hline
+    D & - & 50k & 2k & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{Pythia-410M}} \\
+    \hline
+    D & - & 50k & 2k & 24 & 1024 & 4096 & 16 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{Pythia-410M-deduped}} \\
+    \hline
+    D & - & 50k & 2k & 24 & 1024 & 4096 & 16 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{OPT-125M}} \\
+    \hline
+    D & - & 50k & 2k & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{OPT-350M}} \\
+    \hline
+    D & - & 50k & 2k & 24 & 1024 & 4096 & 16 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{Cerebras-GPT-111M}} \\
+    \hline
+    D & - & 50k & 2k & 10 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{Cerebras-GPT-256M}} \\
+    \hline
+    D & - & 50k & 2k & 14 & 1088 & 4352 & 17 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{DistilGPT-2}} \\
+    \hline
+    D & - & 50k & 1k & 6 & 768 & 1024 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{BioGPT}} \\
+    \hline
+    D & - & 42k & 1k & 24 & 1024 & 4096 & 16 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{GPT-fr-small}} \\
+    \hline
+    D & - & 50k & 1k & 12 & 768 & 1024 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{PolishGPT-2-small}} \\
+    \hline
+    D & - & 51k & 2k & 12 & 768 & 3072 & 12 & 64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{T5-small}} \\
+    \hline
+    K-D & - & 32k & 512 & 6/6 & 512/512 & 2048/2048 & 8/8 & 64/64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{T5-base}} \\
+    \hline
+    K-D & - & 32k & 512 & 12/12 & 768/768 & 3072/3072 & 12/12 & 64/64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{T5-small-v1.1}} \\
+    \hline
+    K-D & - & 32k & 512 & 8/8 & 512/512 & 1024/1024 & 6/6 & 85/85 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{T5-base-v1.1}} \\
+    \hline
+    K-D & - & 32k & 512 & 12/12 & 768/768 & 2048/2048 & 12/12 & 64/64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{T5-small-v1.1-lm-adapt}} \\
+    \hline
+    K-D & - & 32k & 512 & 8/8 & 512/512 & 1024/1024 & 6/6 & 85/85 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{T5-base-v1.1-lm-adapt}} \\
+    \hline
+    K-D & - & 32k & 512 & 12/12 & 768/768 & 2048/2048 & 12/12 & 64/64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{T5-efficient-tiny}} \\
+    \hline
+    K-D & - & 32k & 512 & 4/4 & 256/256 & 1024/1024 & 4/4 & 64/64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{T5-efficient-mini}} \\
+    \hline
+    K-D & - & 32k & 512 & 4/4 & 384/384 & 1536/1536 & 8/8 & 48/48 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{T5-efficient-small}} \\
+    \hline
+    K-D & - & 32k & 512 & 6/6 & 512/512 & 2048/2048 & 8/8 & 64/64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{T5-efficient-base}} \\
+    \hline
+    K-D & - & 32k & 512 & 12/12 & 768/768 & 3072/3072 & 12/12 & 64/64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{Switch-base-8}} \\
+    \hline
+    K-D & - & 32k & 512 & 12/12 & 768/768 & 3072/3072 & 12/12 & 64/64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{FLAN-T5-small}} \\
+    \hline
+    K-D & - & 32k & 512 & 8/8 & 512/512 & 1024/1024 & 6/6 & 85/85 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{FLAN-T5-base}} \\
+    \hline
+    K-D & - & 32k & 512 & 12/12 & 768/768 & 2048/2048 & 12/12 & 64/64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{mT5-small}} \\
+    \hline
+    K-D & - & 250k & 1k & 8/8 & 512/512 & 1024/1024 & 6/6 & 85/85 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{mT5-base}} \\
+    \hline
+    K-D & - & 250k & 1k & 12/12 & 768/768 & 2048/2048 & 12/12 & 64/64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{ByT5-small}} \\
+    \hline
+    K-D & - & 384 & 1k & 12/4 & 1472/1472 & 3584/3584 & 6/6 & 245/245 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{ByT5-base}} \\
+    \hline
+    K-D & - & 384 & 1k & 18/6 & 1536/1536 & 3968/3968 & 12/12 & 128/128 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{LongT5-TGlobal-base}} \\
+    \hline
+    K-D & - & 32k & 4k & 12/12 & 768/768 & 2048/2048 & 12/12 & 64/64 \\
+    \hline
+    \multicolumn{9}{| l |}{\textbf{LongT5-Local-base}} \\
+    \hline
+    K-D & - & 32k & 4k & 12/12 & 768/768 & 2048/2048 & 12/12 & 64/64 \\
+    \hline
+\end{longtable}
+

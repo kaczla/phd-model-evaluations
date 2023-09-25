@@ -1,0 +1,347 @@
+{
+    "column_names": [
+        "Nazwa modelu",
+        "Nazwa z repozytorium HuggingFace Models"
+    ],
+    "row_names": [
+        "RoBERTa-base",
+        "RoBERTa-large",
+        "BERT-base-cased",
+        "BERT-base-uncased",
+        "BERT-large-cased",
+        "BERT-large-uncased",
+        "BERT-tiny-uncased",
+        "BERT-mini-uncased",
+        "BERT-small-uncased",
+        "BERT-medium-uncased",
+        "DistilRoBERTa-base",
+        "DistilBERT-base-cased",
+        "DistilBERT-base-uncased",
+        "ALBERT-base",
+        "ALBERT-large",
+        "MobileBERT-uncased",
+        "FinBERT",
+        "SciBERT-uncased",
+        "SciBERT-cased",
+        "BioMed-RoBERTa-base",
+        "ClinicalBERT",
+        "CodeBERT-base",
+        "XLM-RoBERTa-base",
+        "XLM-RoBERTa-large",
+        "BERT-base-multilingual-uncased",
+        "BERT-base-multilingual-cased",
+        "Longformer-base",
+        "Longformer-large",
+        "CamemBERT-base",
+        "PolishRoBERT-base",
+        "German-BERT-base-cased",
+        "GPT-2-base",
+        "GPT-2-medium",
+        "GPT-Neo-125M",
+        "Pythia-70M",
+        "Pythia-70M-deduped",
+        "Pythia-160M",
+        "Pythia-160M-deduped",
+        "Pythia-410M",
+        "Pythia-410M-deduped",
+        "OPT-125M",
+        "OPT-350M",
+        "Cerebras-GPT-111M",
+        "Cerebras-GPT-256M",
+        "DistilGPT-2",
+        "BioGPT",
+        "GPT-fr-small",
+        "PolishGPT-2-small",
+        "T5-small",
+        "T5-base",
+        "T5-small-v1.1",
+        "T5-base-v1.1",
+        "T5-small-v1.1-lm-adapt",
+        "T5-base-v1.1-lm-adapt",
+        "T5-efficient-tiny",
+        "T5-efficient-mini",
+        "T5-efficient-small",
+        "T5-efficient-base",
+        "Switch-base-8",
+        "FLAN-T5-small",
+        "FLAN-T5-base",
+        "mT5-small",
+        "mT5-base",
+        "ByT5-small",
+        "ByT5-base",
+        "LongT5-TGlobal-base",
+        "LongT5-Local-base"
+    ],
+    "row_data": [
+        {
+            "Nazwa modelu": "RoBERTa-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/roberta-base}{roberta-base}"
+        },
+        {
+            "Nazwa modelu": "RoBERTa-large",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/roberta-large}{roberta-large}"
+        },
+        {
+            "Nazwa modelu": "BERT-base-cased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/bert-base-cased}{bert-base-cased}"
+        },
+        {
+            "Nazwa modelu": "BERT-base-uncased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/bert-base-uncased}{bert-base-uncased}"
+        },
+        {
+            "Nazwa modelu": "BERT-large-cased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/bert-large-cased}{bert-large-cased}"
+        },
+        {
+            "Nazwa modelu": "BERT-large-uncased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/bert-large-uncased}{bert-large-uncased}"
+        },
+        {
+            "Nazwa modelu": "BERT-tiny-uncased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/prajjwal1/bert-tiny}{prajjwal1/bert-tiny}"
+        },
+        {
+            "Nazwa modelu": "BERT-mini-uncased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/prajjwal1/bert-mini}{prajjwal1/bert-mini}"
+        },
+        {
+            "Nazwa modelu": "BERT-small-uncased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/prajjwal1/bert-small}{prajjwal1/bert-small}"
+        },
+        {
+            "Nazwa modelu": "BERT-medium-uncased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/prajjwal1/bert-medium}{prajjwal1/bert-medium}"
+        },
+        {
+            "Nazwa modelu": "DistilRoBERTa-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/distilroberta-base}{distilroberta-base}"
+        },
+        {
+            "Nazwa modelu": "DistilBERT-base-cased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/distilbert-base-cased}{distilbert-base-cased}"
+        },
+        {
+            "Nazwa modelu": "DistilBERT-base-uncased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/distilbert-base-uncased}{distilbert-base-uncased}"
+        },
+        {
+            "Nazwa modelu": "ALBERT-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/albert-base-v2}{albert-base-v2}"
+        },
+        {
+            "Nazwa modelu": "ALBERT-large",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/albert-large-v2}{albert-large-v2}"
+        },
+        {
+            "Nazwa modelu": "MobileBERT-uncased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/mobilebert-uncased}{google/mobilebert-uncased}"
+        },
+        {
+            "Nazwa modelu": "FinBERT",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/yiyanghkust/finbert-pretrain}{yiyanghkust/finbert-pretrain}"
+        },
+        {
+            "Nazwa modelu": "SciBERT-uncased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/allenai/scibert_scivocab_uncased}{allenai/scibert_scivocab_uncased}"
+        },
+        {
+            "Nazwa modelu": "SciBERT-cased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/allenai/scibert_scivocab_cased}{allenai/scibert_scivocab_cased}"
+        },
+        {
+            "Nazwa modelu": "BioMed-RoBERTa-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/allenai/biomed_roberta_base}{allenai/biomed_roberta_base}"
+        },
+        {
+            "Nazwa modelu": "ClinicalBERT",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT}{emilyalsentzer/Bio_ClinicalBERT}"
+        },
+        {
+            "Nazwa modelu": "CodeBERT-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/microsoft/codebert-base-mlm}{microsoft/codebert-base-mlm}"
+        },
+        {
+            "Nazwa modelu": "XLM-RoBERTa-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/xlm-roberta-base}{xlm-roberta-base}"
+        },
+        {
+            "Nazwa modelu": "XLM-RoBERTa-large",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/xlm-roberta-large}{xlm-roberta-large}"
+        },
+        {
+            "Nazwa modelu": "BERT-base-multilingual-uncased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/bert-base-multilingual-uncased}{bert-base-multilingual-uncased}"
+        },
+        {
+            "Nazwa modelu": "BERT-base-multilingual-cased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/bert-base-multilingual-cased}{bert-base-multilingual-cased}"
+        },
+        {
+            "Nazwa modelu": "Longformer-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/allenai/longformer-base-4096}{allenai/longformer-base-4096}"
+        },
+        {
+            "Nazwa modelu": "Longformer-large",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/allenai/longformer-large-4096}{allenai/longformer-large-4096}"
+        },
+        {
+            "Nazwa modelu": "CamemBERT-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/camembert-base}{camembert-base}"
+        },
+        {
+            "Nazwa modelu": "PolishRoBERT-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/sdadas/polish-roberta-base-v1}{sdadas/polish-roberta-base-v1}"
+        },
+        {
+            "Nazwa modelu": "German-BERT-base-cased",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/bert-base-german-cased}{bert-base-german-cased}"
+        },
+        {
+            "Nazwa modelu": "GPT-2-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/gpt2}{gpt2}"
+        },
+        {
+            "Nazwa modelu": "GPT-2-medium",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/gpt2-medium}{gpt2-medium}"
+        },
+        {
+            "Nazwa modelu": "GPT-Neo-125M",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/EleutherAI/gpt-neo-125M}{EleutherAI/gpt-neo-125M}"
+        },
+        {
+            "Nazwa modelu": "Pythia-70M",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/EleutherAI/pythia-70m}{EleutherAI/pythia-70m}"
+        },
+        {
+            "Nazwa modelu": "Pythia-70M-deduped",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/EleutherAI/pythia-70m-deduped}{EleutherAI/pythia-70m-deduped}"
+        },
+        {
+            "Nazwa modelu": "Pythia-160M",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/EleutherAI/pythia-160m}{EleutherAI/pythia-160m}"
+        },
+        {
+            "Nazwa modelu": "Pythia-160M-deduped",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/EleutherAI/pythia-160m-deduped}{EleutherAI/pythia-160m-deduped}"
+        },
+        {
+            "Nazwa modelu": "Pythia-410M",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/EleutherAI/pythia-410m}{EleutherAI/pythia-410m}"
+        },
+        {
+            "Nazwa modelu": "Pythia-410M-deduped",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/EleutherAI/pythia-410m-deduped}{EleutherAI/pythia-410m-deduped}"
+        },
+        {
+            "Nazwa modelu": "OPT-125M",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/facebook/opt-125m}{facebook/opt-125m}"
+        },
+        {
+            "Nazwa modelu": "OPT-350M",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/facebook/opt-350m}{facebook/opt-350m}"
+        },
+        {
+            "Nazwa modelu": "Cerebras-GPT-111M",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/cerebras/Cerebras-GPT-111M}{cerebras/Cerebras-GPT-111M}"
+        },
+        {
+            "Nazwa modelu": "Cerebras-GPT-256M",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/cerebras/Cerebras-GPT-256M}{cerebras/Cerebras-GPT-256M}"
+        },
+        {
+            "Nazwa modelu": "DistilGPT-2",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/distilgpt2}{distilgpt2}"
+        },
+        {
+            "Nazwa modelu": "BioGPT",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/microsoft/biogpt}{microsoft/biogpt}"
+        },
+        {
+            "Nazwa modelu": "GPT-fr-small",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/asi/gpt-fr-cased-small}{asi/gpt-fr-cased-small}"
+        },
+        {
+            "Nazwa modelu": "PolishGPT-2-small",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/sdadas/polish-gpt2-small}{sdadas/polish-gpt2-small}"
+        },
+        {
+            "Nazwa modelu": "T5-small",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/t5-small}{t5-small}"
+        },
+        {
+            "Nazwa modelu": "T5-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/t5-base}{t5-base}"
+        },
+        {
+            "Nazwa modelu": "T5-small-v1.1",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/t5-v1_1-small}{google/t5-v1_1-small}"
+        },
+        {
+            "Nazwa modelu": "T5-base-v1.1",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/t5-v1_1-base}{google/t5-v1_1-base}"
+        },
+        {
+            "Nazwa modelu": "T5-small-v1.1-lm-adapt",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/t5-small-lm-adapt}{google/t5-small-lm-adapt}"
+        },
+        {
+            "Nazwa modelu": "T5-base-v1.1-lm-adapt",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/t5-base-lm-adapt}{google/t5-base-lm-adapt}"
+        },
+        {
+            "Nazwa modelu": "T5-efficient-tiny",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/t5-efficient-tiny}{google/t5-efficient-tiny}"
+        },
+        {
+            "Nazwa modelu": "T5-efficient-mini",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/t5-efficient-mini}{google/t5-efficient-mini}"
+        },
+        {
+            "Nazwa modelu": "T5-efficient-small",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/t5-efficient-small}{google/t5-efficient-small}"
+        },
+        {
+            "Nazwa modelu": "T5-efficient-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/t5-efficient-base}{google/t5-efficient-base}"
+        },
+        {
+            "Nazwa modelu": "Switch-base-8",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/switch-base-8}{google/switch-base-8}"
+        },
+        {
+            "Nazwa modelu": "FLAN-T5-small",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/flan-t5-small}{google/flan-t5-small}"
+        },
+        {
+            "Nazwa modelu": "FLAN-T5-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/flan-t5-base}{google/flan-t5-base}"
+        },
+        {
+            "Nazwa modelu": "mT5-small",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/mt5-small}{google/mt5-small}"
+        },
+        {
+            "Nazwa modelu": "mT5-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/mt5-base}{google/mt5-base}"
+        },
+        {
+            "Nazwa modelu": "ByT5-small",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/byt5-small}{google/byt5-small}"
+        },
+        {
+            "Nazwa modelu": "ByT5-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/byt5-base}{google/byt5-base}"
+        },
+        {
+            "Nazwa modelu": "LongT5-TGlobal-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/long-t5-tglobal-base}{google/long-t5-tglobal-base}"
+        },
+        {
+            "Nazwa modelu": "LongT5-Local-base",
+            "Nazwa z repozytorium HuggingFace Models": "\\href{https://huggingface.co/google/long-t5-local-base}{google/long-t5-local-base}"
+        }
+    ],
+    "one_line_row_names": [],
+    "skip_row_name": true
+}

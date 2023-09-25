@@ -1,0 +1,10 @@
+{
+    "checkers": [
+        {
+            "name": "right_context_length",
+            "invert_checking": false,
+            "min_right_context_length": 3,
+            "max_right_context_length": 15
+        }
+    ]
+}

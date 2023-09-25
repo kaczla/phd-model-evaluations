@@ -1,0 +1,24 @@
+{
+    "name": "masked_token_frequency",
+    "data": {
+        "Liczba wystąpień w zakresie od 1 do 3": 5958,
+        "Liczba wystąpień w zakresie od 11 do 50": 5993,
+        "Liczba wystąpień w zakresie od 4 do 10": 7055,
+        "Liczba wystąpień w zakresie od 51 do 100": 1484
+    },
+    "total": 20490,
+    "statistics": {
+        "total_elements": 0,
+        "max_value": 0.0,
+        "min_value": 0.0,
+        "avg_value": 0.0,
+        "std_value": 0.0
+    },
+    "draw_option": {
+        "visualization_type": "pie",
+        "title_x": "-",
+        "title_y": "-",
+        "other_label_name": "Pozostałe",
+        "map_key_to_label_name": {}
+    }
+}

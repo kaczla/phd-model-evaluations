@@ -1,0 +1,91 @@
+model_name	depth	method	top_k	PerplexityHashed
+ALBERT-base	1	simple	15	59958.057620
+ALBERT-large	1	simple	15	40587.882371
+ALBERT-xlarge	1	simple	15	35509.112759
+ALBERT-xxlarge	1	simple	15	20573.436020
+BERT-base-cased	1	simple	15	31229.734074
+BERT-base-multilingual-cased	1	simple	15	124603.306558
+BERT-base-multilingual-uncased	1	simple	15	96491.934382
+BERT-base-uncased	1	simple	15	39641.529138
+BERT-large-cased	1	simple	15	20761.898251
+BERT-large-uncased	1	simple	15	29932.910063
+BERT-medium-uncased	1	simple	15	70649.604156
+BERT-mini-uncased	1	simple	15	169661.356662
+BERT-small-uncased	1	simple	15	88555.393587
+BERT-tiny-uncased	1	simple	15	356867.656680
+BioGPT	1		15	361147.667846
+BioMed-RoBERTa-base	1	simple	15	36666.261125
+ByT5-base	1		15	926585.225202
+ByT5-small	1		15	696324.049390
+CamemBERT-base	1	simple	15	459538.192276
+Cerebras-GPT-111M	1		15	300350.945731
+Cerebras-GPT-256M	1		15	259272.579366
+ClinicalBERT	1	simple	15	263223.601486
+CodeBERT-base	1	simple	15	230104.539854
+DistilBERT-base-cased	1	simple	15	40232.069698
+DistilBERT-base-uncased	1	simple	15	36510.961604
+DistilGPT-2	1		15	262291.911041
+DistilRoBERTa-base	1	simple	15	16010.020015
+FLAN-T5-base	1		15	524705.182653
+FLAN-T5-large	1		15	813216.803582
+FLAN-T5-small	1		15	802012.392406
+FinBERT	1	simple	15	193539.989480
+GPT-2-base	1		15	199652.513406
+GPT-2-large	1		15	147512.804164
+GPT-2-medium	1		15	156298.838875
+GPT-Neo-125M	1		15	233136.285605
+GPT-fr-base	1		15	799202.038242
+GPT-fr-small	1		15	793652.808683
+German-BERT-base-cased	1	simple	15	800057.577123
+LongT5-Local-base	1		15	1009561.838578
+LongT5-TGlobal-base	1		15	831823.630108
+MiniLM-L12-H384-RoBERTa-large	1	simple	15	867971.988120
+MiniLM-L12-H384-XLMR-Large	1	simple	15	856384.784582
+MiniLM-L6-H384-BERT-base-uncased	1	simple	15	875225.769479
+MiniLM-L6-H384-BERT-large-uncased	1	simple	15	852259.132856
+MiniLM-L6-H384-RoBERTa-large	1	simple	15	868898.504569
+MiniLM-L6-H384-XLMR-Large	1	simple	15	864482.328872
+MiniLM-L6-H768-BERT-base-uncased	1	simple	15	880059.869906
+MiniLM-L6-H768-BERT-large-uncased	1	simple	15	859844.319126
+MiniLM-L6-H768-RoBERTa-large	1	simple	15	881919.547898
+MobileBERT-uncased	1	simple	15	47381.000120
+OPT-125M	1		15	207009.637969
+OPT-350M	1		15	184635.759770
+PolishGPT-2-large	1		15	851505.541146
+PolishGPT-2-medium	1		15	852566.101380
+PolishGPT-2-small	1		15	865399.842226
+PolishRoBERT-base	1	simple	15	815965.103882
+Pythia-160M	1		15	257294.133905
+Pythia-160M-deduped	1		15	231772.169222
+Pythia-410M	1		15	194716.940354
+Pythia-410M-deduped	1		15	190522.564001
+Pythia-70M	1		15	359262.972779
+Pythia-70M-deduped	1		15	325450.454532
+RoBERTa-base	1	simple	15	13601.308357
+RoBERTa-large	1	simple	15	9385.315149
+SciBERT-cased	1	simple	15	108020.893641
+SciBERT-uncased	1	simple	15	88185.472519
+SportsBERT	1	simple	15	394201.958338
+Switch-base-8	1		15	27024.068387
+T5-base	1		15	37750.472289
+T5-base-v1.1	1		15	711482.460553
+T5-base-v1.1-lm-adapt	1		15	599487.499101
+T5-efficient-base	1		15	554366.404180
+T5-efficient-large	1		15	520207.326939
+T5-efficient-mini	1		15	751274.060476
+T5-efficient-small	1		15	704329.767792
+T5-efficient-tiny	1		15	759122.409114
+T5-large	1		15	23883.725076
+T5-large-v1.1	1		15	707405.506171
+T5-large-v1.1-lm-adapt	1		15	845292.141749
+T5-small	1		15	100536.922619
+T5-small-v1.1	1		15	728991.894036
+T5-small-v1.1-lm-adapt	1		15	872310.898235
+XLM-100-lang	1	simple	15	171156.119705
+XLM-17-lang	1	simple	15	272220.542822
+XLM-RoBERTa-base	1	simple	15	77181.280957
+XLM-RoBERTa-large	1	simple	15	57252.799547
+XLM-en	1	simple	15	867963.043852
+mT5-base	1		15	307836.783606
+mT5-large	1		15	235063.068717
+mT5-small	1		15	368727.952759

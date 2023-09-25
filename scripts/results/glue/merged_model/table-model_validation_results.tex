@@ -1,0 +1,24 @@
+\begin{longtable}{| l | l | l | l | l | l | l | l | l | l | l |}
+\caption{Wyniki neuronowych modeli języka na zbiorze walidacyjnym na zbiorze zadań GLUE Benchmark.}\label{table:glue_merged_score_validation}
+    \\
+    \hline
+    \rotatebox{90}{\textbf{CoLA}} & \rotatebox{90}{\textbf{MNLI-m}} & \rotatebox{90}{\textbf{MNLI-mm}} & \rotatebox{90}{\textbf{MRPC}} & \rotatebox{90}{\textbf{QNLI}} & \rotatebox{90}{\textbf{QQP}} & \rotatebox{90}{\textbf{RTE}} & \rotatebox{90}{\textbf{SST-2}} & \rotatebox{90}{\textbf{STS-B}} & \rotatebox{90}{\textbf{WNLI}} & \rotatebox{90}{\textbf{Średnia}} \\
+    \hline
+    \multicolumn{11}{| l |}{\textbf{fine-tuned RoBERTa-base}} \\
+    \hline
+    60.00 & - & - & 93.40 & 92.10 & 88.30 & 77.20 & 94.00 & 90.90 & 55.70 & 81.45 \\
+    \hline
+    \multicolumn{11}{| l |}{\textbf{fine-tuned RoBERTa-large}} \\
+    \hline
+    - & - & - & - & - & - & - & - & - & - & - \\
+    \hline
+    \multicolumn{11}{| l |}{\textbf{RoBERTa-base}} \\
+    \hline
+    63.60 & 87.60 & 87.60 & 90.20 & 92.80 & 91.90 & 78.70 & 94.80 & 91.20 & - & 86.49 \\
+    \hline
+    \multicolumn{11}{| l |}{\textbf{RoBERTa-large}} \\
+    \hline
+    68.00 & 90.20 & 90.20 & 90.90 & 94.70 & 92.20 & 86.60 & 96.40 & 92.40 & 91.30 & 89.29 \\
+    \hline
+\end{longtable}
+

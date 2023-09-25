@@ -1,0 +1,10 @@
+{
+    "checkers": [
+        {
+            "name": "masked_token_frequency",
+            "invert_checking": false,
+            "min_masked_token_frequency": 3,
+            "max_masked_token_frequency": 1000000
+        }
+    ]
+}

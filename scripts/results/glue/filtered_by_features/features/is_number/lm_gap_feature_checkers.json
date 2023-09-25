@@ -1,0 +1,9 @@
+{
+    "checkers": [
+        {
+            "name": "is_number",
+            "invert_checking": true,
+            "check_number": true
+        }
+    ]
+}

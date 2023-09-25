@@ -1,0 +1,270 @@
+{
+    "RoBERTa-base": {
+        "name": "roberta-base",
+        "human_name": "RoBERTa-base"
+    },
+    "RoBERTa-large": {
+        "name": "roberta-large",
+        "human_name": "RoBERTa-large"
+    },
+    "BERT-base-cased": {
+        "name": "bert-base-cased",
+        "human_name": "BERT-base-cased"
+    },
+    "BERT-base-uncased": {
+        "name": "bert-base-uncased",
+        "human_name": "BERT-base-uncased"
+    },
+    "BERT-large-cased": {
+        "name": "bert-large-cased",
+        "human_name": "BERT-large-cased"
+    },
+    "BERT-large-uncased": {
+        "name": "bert-large-uncased",
+        "human_name": "BERT-large-uncased"
+    },
+    "BERT-tiny-uncased": {
+        "name": "prajjwal1/bert-tiny",
+        "human_name": "BERT-tiny-uncased"
+    },
+    "BERT-mini-uncased": {
+        "name": "prajjwal1/bert-mini",
+        "human_name": "BERT-mini-uncased"
+    },
+    "BERT-small-uncased": {
+        "name": "prajjwal1/bert-small",
+        "human_name": "BERT-small-uncased"
+    },
+    "BERT-medium-uncased": {
+        "name": "prajjwal1/bert-medium",
+        "human_name": "BERT-medium-uncased"
+    },
+    "DistilRoBERTa-base": {
+        "name": "distilroberta-base",
+        "human_name": "DistilRoBERTa-base"
+    },
+    "DistilBERT-base-cased": {
+        "name": "distilbert-base-cased",
+        "human_name": "DistilBERT-base-cased"
+    },
+    "DistilBERT-base-uncased": {
+        "name": "distilbert-base-uncased",
+        "human_name": "DistilBERT-base-uncased"
+    },
+    "ALBERT-base": {
+        "name": "albert-base-v2",
+        "human_name": "ALBERT-base"
+    },
+    "ALBERT-large": {
+        "name": "albert-large-v2",
+        "human_name": "ALBERT-large"
+    },
+    "MobileBERT-uncased": {
+        "name": "google/mobilebert-uncased",
+        "human_name": "MobileBERT-uncased"
+    },
+    "FinBERT": {
+        "name": "yiyanghkust/finbert-pretrain",
+        "human_name": "FinBERT"
+    },
+    "SciBERT-uncased": {
+        "name": "allenai/scibert_scivocab_uncased",
+        "human_name": "SciBERT-uncased"
+    },
+    "SciBERT-cased": {
+        "name": "allenai/scibert_scivocab_cased",
+        "human_name": "SciBERT-cased"
+    },
+    "BioMed-RoBERTa-base": {
+        "name": "allenai/biomed_roberta_base",
+        "human_name": "BioMed-RoBERTa-base"
+    },
+    "ClinicalBERT": {
+        "name": "emilyalsentzer/Bio_ClinicalBERT",
+        "human_name": "ClinicalBERT"
+    },
+    "CodeBERT-base": {
+        "name": "microsoft/codebert-base-mlm",
+        "human_name": "CodeBERT-base"
+    },
+    "XLM-RoBERTa-base": {
+        "name": "xlm-roberta-base",
+        "human_name": "XLM-RoBERTa-base"
+    },
+    "XLM-RoBERTa-large": {
+        "name": "xlm-roberta-large",
+        "human_name": "XLM-RoBERTa-large"
+    },
+    "BERT-base-multilingual-uncased": {
+        "name": "bert-base-multilingual-uncased",
+        "human_name": "BERT-base-multilingual-uncased"
+    },
+    "BERT-base-multilingual-cased": {
+        "name": "bert-base-multilingual-cased",
+        "human_name": "BERT-base-multilingual-cased"
+    },
+    "Longformer-base": {
+        "name": "allenai/longformer-base-4096",
+        "human_name": "Longformer-base"
+    },
+    "Longformer-large": {
+        "name": "allenai/longformer-large-4096",
+        "human_name": "Longformer-large"
+    },
+    "CamemBERT-base": {
+        "name": "camembert-base",
+        "human_name": "CamemBERT-base"
+    },
+    "PolishRoBERT-base": {
+        "name": "sdadas/polish-roberta-base-v1",
+        "human_name": "PolishRoBERT-base"
+    },
+    "German-BERT-base-cased": {
+        "name": "bert-base-german-cased",
+        "human_name": "German-BERT-base-cased"
+    },
+    "GPT-2-base": {
+        "name": "gpt2",
+        "human_name": "GPT-2-base"
+    },
+    "GPT-2-medium": {
+        "name": "gpt2-medium",
+        "human_name": "GPT-2-medium"
+    },
+    "GPT-Neo-125M": {
+        "name": "EleutherAI/gpt-neo-125M",
+        "human_name": "GPT-Neo-125M"
+    },
+    "Pythia-70M": {
+        "name": "EleutherAI/pythia-70m",
+        "human_name": "Pythia-70M"
+    },
+    "Pythia-70M-deduped": {
+        "name": "EleutherAI/pythia-70m-deduped",
+        "human_name": "Pythia-70M-deduped"
+    },
+    "Pythia-160M": {
+        "name": "EleutherAI/pythia-160m",
+        "human_name": "Pythia-160M"
+    },
+    "Pythia-160M-deduped": {
+        "name": "EleutherAI/pythia-160m-deduped",
+        "human_name": "Pythia-160M-deduped"
+    },
+    "Pythia-410M": {
+        "name": "EleutherAI/pythia-410m",
+        "human_name": "Pythia-410M"
+    },
+    "Pythia-410M-deduped": {
+        "name": "EleutherAI/pythia-410m-deduped",
+        "human_name": "Pythia-410M-deduped"
+    },
+    "OPT-125M": {
+        "name": "facebook/opt-125m",
+        "human_name": "OPT-125M"
+    },
+    "OPT-350M": {
+        "name": "facebook/opt-350m",
+        "human_name": "OPT-350M"
+    },
+    "Cerebras-GPT-111M": {
+        "name": "cerebras/Cerebras-GPT-111M",
+        "human_name": "Cerebras-GPT-111M"
+    },
+    "Cerebras-GPT-256M": {
+        "name": "cerebras/Cerebras-GPT-256M",
+        "human_name": "Cerebras-GPT-256M"
+    },
+    "DistilGPT-2": {
+        "name": "distilgpt2",
+        "human_name": "DistilGPT-2"
+    },
+    "BioGPT": {
+        "name": "microsoft/biogpt",
+        "human_name": "BioGPT"
+    },
+    "GPT-fr-small": {
+        "name": "asi/gpt-fr-cased-small",
+        "human_name": "GPT-fr-small"
+    },
+    "PolishGPT-2-small": {
+        "name": "sdadas/polish-gpt2-small",
+        "human_name": "PolishGPT-2-small"
+    },
+    "T5-small": {
+        "name": "t5-small",
+        "human_name": "T5-small"
+    },
+    "T5-base": {
+        "name": "t5-base",
+        "human_name": "T5-base"
+    },
+    "T5-small-v1.1": {
+        "name": "google/t5-v1_1-small",
+        "human_name": "T5-small-v1.1"
+    },
+    "T5-base-v1.1": {
+        "name": "google/t5-v1_1-base",
+        "human_name": "T5-base-v1.1"
+    },
+    "T5-small-v1.1-lm-adapt": {
+        "name": "google/t5-small-lm-adapt",
+        "human_name": "T5-small-v1.1-lm-adapt"
+    },
+    "T5-base-v1.1-lm-adapt": {
+        "name": "google/t5-base-lm-adapt",
+        "human_name": "T5-base-v1.1-lm-adapt"
+    },
+    "T5-efficient-tiny": {
+        "name": "google/t5-efficient-tiny",
+        "human_name": "T5-efficient-tiny"
+    },
+    "T5-efficient-mini": {
+        "name": "google/t5-efficient-mini",
+        "human_name": "T5-efficient-mini"
+    },
+    "T5-efficient-small": {
+        "name": "google/t5-efficient-small",
+        "human_name": "T5-efficient-small"
+    },
+    "T5-efficient-base": {
+        "name": "google/t5-efficient-base",
+        "human_name": "T5-efficient-base"
+    },
+    "Switch-base-8": {
+        "name": "google/switch-base-8",
+        "human_name": "Switch-base-8"
+    },
+    "FLAN-T5-small": {
+        "name": "google/flan-t5-small",
+        "human_name": "FLAN-T5-small"
+    },
+    "FLAN-T5-base": {
+        "name": "google/flan-t5-base",
+        "human_name": "FLAN-T5-base"
+    },
+    "mT5-small": {
+        "name": "google/mt5-small",
+        "human_name": "mT5-small"
+    },
+    "mT5-base": {
+        "name": "google/mt5-base",
+        "human_name": "mT5-base"
+    },
+    "ByT5-small": {
+        "name": "google/byt5-small",
+        "human_name": "ByT5-small"
+    },
+    "ByT5-base": {
+        "name": "google/byt5-base",
+        "human_name": "ByT5-base"
+    },
+    "LongT5-TGlobal-base": {
+        "name": "google/long-t5-tglobal-base",
+        "human_name": "LongT5-TGlobal-base"
+    },
+    "LongT5-Local-base": {
+        "name": "google/long-t5-local-base",
+        "human_name": "LongT5-Local-base"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "model_list": [
+        "RoBERTa-base",
+        "RoBERTa-large",
+        "crammed BERT"
+    ],
+    "metrics": {
+        "CoLA": "Matthews correlation",
+        "MNLI-m": "Accuracy",
+        "MNLI-mm": "Accuracy",
+        "MRPC": "F1 score",
+        "QNLI": "Accuracy",
+        "QQP": "F1 score",
+        "RTE": "Accuracy",
+        "SST-2": "Accuracy",
+        "STS-B": "Spearman Correlation",
+        "AVG": "Average score"
+    },
+    "results": {
+        "CoLA": {
+            "RoBERTa-base": 63.6,
+            "RoBERTa-large": 68.0,
+            "crammed BERT": 47.2
+        },
+        "MNLI-m": {
+            "RoBERTa-base": 87.6,
+            "RoBERTa-large": 90.2,
+            "crammed BERT": 83.9
+        },
+        "MNLI-mm": {
+            "RoBERTa-base": 87.6,
+            "RoBERTa-large": 90.2,
+            "crammed BERT": 84.1
+        },
+        "MRPC": {
+            "RoBERTa-base": 90.2,
+            "RoBERTa-large": 90.9,
+            "crammed BERT": 87.5
+        },
+        "QNLI": {
+            "RoBERTa-base": 92.8,
+            "RoBERTa-large": 94.7,
+            "crammed BERT": 89.5
+        },
+        "QQP": {
+            "RoBERTa-base": 91.9,
+            "RoBERTa-large": 92.2,
+            "crammed BERT": 87.3
+        },
+        "RTE": {
+            "RoBERTa-base": 78.7,
+            "RoBERTa-large": 86.6,
+            "crammed BERT": 53.8
+        },
+        "SST-2": {
+            "RoBERTa-base": 94.8,
+            "RoBERTa-large": 96.4,
+            "crammed BERT": 92.2
+        },
+        "STS-B": {
+            "RoBERTa-base": 91.2,
+            "RoBERTa-large": 92.4,
+            "crammed BERT": 84.6
+        },
+        "AVG": {
+            "RoBERTa-base": 86.49,
+            "RoBERTa-large": 89.07,
+            "crammed BERT": 78.9
+        }
+    }
+}

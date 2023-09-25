@@ -1,0 +1,1159 @@
+{
+    "column_names": [
+        "Rodzaj architektury",
+        "Liczba parametrów",
+        "Wielkość słownika",
+        "Długość sekwencji",
+        "Liczba warstw (K/D)",
+        "Wymiar modelu (K/D)",
+        "Wymiar liniowej transformacji (K/D)",
+        "Liczba głowic atencji (K/D)",
+        "Wymiar głowicy atencji (K/D)"
+    ],
+    "row_names": [
+        "RoBERTa-base",
+        "RoBERTa-base parameters",
+        "RoBERTa-large",
+        "RoBERTa-large parameters",
+        "BERT-base-cased",
+        "BERT-base-cased parameters",
+        "BERT-base-uncased",
+        "BERT-base-uncased parameters",
+        "BERT-large-cased",
+        "BERT-large-cased parameters",
+        "BERT-large-uncased",
+        "BERT-large-uncased parameters",
+        "BERT-tiny-uncased",
+        "BERT-tiny-uncased parameters",
+        "BERT-mini-uncased",
+        "BERT-mini-uncased parameters",
+        "BERT-small-uncased",
+        "BERT-small-uncased parameters",
+        "BERT-medium-uncased",
+        "BERT-medium-uncased parameters",
+        "DistilRoBERTa-base",
+        "DistilRoBERTa-base parameters",
+        "DistilBERT-base-cased",
+        "DistilBERT-base-cased parameters",
+        "DistilBERT-base-uncased",
+        "DistilBERT-base-uncased parameters",
+        "ALBERT-base",
+        "ALBERT-base parameters",
+        "ALBERT-large",
+        "ALBERT-large parameters",
+        "MobileBERT-uncased",
+        "MobileBERT-uncased parameters",
+        "FinBERT",
+        "FinBERT parameters",
+        "SciBERT-uncased",
+        "SciBERT-uncased parameters",
+        "SciBERT-cased",
+        "SciBERT-cased parameters",
+        "BioMed-RoBERTa-base",
+        "BioMed-RoBERTa-base parameters",
+        "ClinicalBERT",
+        "ClinicalBERT parameters",
+        "CodeBERT-base",
+        "CodeBERT-base parameters",
+        "XLM-RoBERTa-base",
+        "XLM-RoBERTa-base parameters",
+        "XLM-RoBERTa-large",
+        "XLM-RoBERTa-large parameters",
+        "BERT-base-multilingual-uncased",
+        "BERT-base-multilingual-uncased parameters",
+        "BERT-base-multilingual-cased",
+        "BERT-base-multilingual-cased parameters",
+        "Longformer-base",
+        "Longformer-base parameters",
+        "Longformer-large",
+        "Longformer-large parameters",
+        "CamemBERT-base",
+        "CamemBERT-base parameters",
+        "PolishRoBERT-base",
+        "PolishRoBERT-base parameters",
+        "German-BERT-base-cased",
+        "German-BERT-base-cased parameters",
+        "GPT-2-base",
+        "GPT-2-base parameters",
+        "GPT-2-medium",
+        "GPT-2-medium parameters",
+        "GPT-Neo-125M",
+        "GPT-Neo-125M parameters",
+        "Pythia-70M",
+        "Pythia-70M parameters",
+        "Pythia-70M-deduped",
+        "Pythia-70M-deduped parameters",
+        "Pythia-160M",
+        "Pythia-160M parameters",
+        "Pythia-160M-deduped",
+        "Pythia-160M-deduped parameters",
+        "Pythia-410M",
+        "Pythia-410M parameters",
+        "Pythia-410M-deduped",
+        "Pythia-410M-deduped parameters",
+        "OPT-125M",
+        "OPT-125M parameters",
+        "OPT-350M",
+        "OPT-350M parameters",
+        "Cerebras-GPT-111M",
+        "Cerebras-GPT-111M parameters",
+        "Cerebras-GPT-256M",
+        "Cerebras-GPT-256M parameters",
+        "DistilGPT-2",
+        "DistilGPT-2 parameters",
+        "BioGPT",
+        "BioGPT parameters",
+        "GPT-fr-small",
+        "GPT-fr-small parameters",
+        "PolishGPT-2-small",
+        "PolishGPT-2-small parameters",
+        "T5-small",
+        "T5-small parameters",
+        "T5-base",
+        "T5-base parameters",
+        "T5-small-v1.1",
+        "T5-small-v1.1 parameters",
+        "T5-base-v1.1",
+        "T5-base-v1.1 parameters",
+        "T5-small-v1.1-lm-adapt",
+        "T5-small-v1.1-lm-adapt parameters",
+        "T5-base-v1.1-lm-adapt",
+        "T5-base-v1.1-lm-adapt parameters",
+        "T5-efficient-tiny",
+        "T5-efficient-tiny parameters",
+        "T5-efficient-mini",
+        "T5-efficient-mini parameters",
+        "T5-efficient-small",
+        "T5-efficient-small parameters",
+        "T5-efficient-base",
+        "T5-efficient-base parameters",
+        "Switch-base-8",
+        "Switch-base-8 parameters",
+        "FLAN-T5-small",
+        "FLAN-T5-small parameters",
+        "FLAN-T5-base",
+        "FLAN-T5-base parameters",
+        "mT5-small",
+        "mT5-small parameters",
+        "mT5-base",
+        "mT5-base parameters",
+        "ByT5-small",
+        "ByT5-small parameters",
+        "ByT5-base",
+        "ByT5-base parameters",
+        "LongT5-TGlobal-base",
+        "LongT5-TGlobal-base parameters",
+        "LongT5-Local-base",
+        "LongT5-Local-base parameters"
+    ],
+    "row_data": [
+        {
+            "Rodzaj architektury": "RoBERTa-base"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "RoBERTa-large"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "24",
+            "Wymiar modelu (K/D)": "1024",
+            "Wymiar liniowej transformacji (K/D)": "4096",
+            "Liczba głowic atencji (K/D)": "16",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "BERT-base-cased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "28k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "BERT-base-uncased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "30k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "BERT-large-cased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "28k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "24",
+            "Wymiar modelu (K/D)": "1024",
+            "Wymiar liniowej transformacji (K/D)": "4096",
+            "Liczba głowic atencji (K/D)": "16",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "BERT-large-uncased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "30k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "24",
+            "Wymiar modelu (K/D)": "1024",
+            "Wymiar liniowej transformacji (K/D)": "4096",
+            "Liczba głowic atencji (K/D)": "16",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "BERT-tiny-uncased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "30k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "2",
+            "Wymiar modelu (K/D)": "128",
+            "Wymiar liniowej transformacji (K/D)": "512",
+            "Liczba głowic atencji (K/D)": "2",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "BERT-mini-uncased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "30k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "4",
+            "Wymiar modelu (K/D)": "256",
+            "Wymiar liniowej transformacji (K/D)": "1024",
+            "Liczba głowic atencji (K/D)": "4",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "BERT-small-uncased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "30k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "4",
+            "Wymiar modelu (K/D)": "512",
+            "Wymiar liniowej transformacji (K/D)": "2048",
+            "Liczba głowic atencji (K/D)": "8",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "BERT-medium-uncased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "30k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "8",
+            "Wymiar modelu (K/D)": "512",
+            "Wymiar liniowej transformacji (K/D)": "2048",
+            "Liczba głowic atencji (K/D)": "8",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "DistilRoBERTa-base"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "6",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "DistilBERT-base-cased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "28k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "6",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "DistilBERT-base-uncased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "30k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "6",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "ALBERT-base"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "30k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "ALBERT-large"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "30k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "24",
+            "Wymiar modelu (K/D)": "1024",
+            "Wymiar liniowej transformacji (K/D)": "4096",
+            "Liczba głowic atencji (K/D)": "16",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "MobileBERT-uncased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "30k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "24",
+            "Wymiar modelu (K/D)": "512",
+            "Wymiar liniowej transformacji (K/D)": "512",
+            "Liczba głowic atencji (K/D)": "4",
+            "Wymiar głowicy atencji (K/D)": "128"
+        },
+        {
+            "Rodzaj architektury": "FinBERT"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "30k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "SciBERT-uncased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "31k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "SciBERT-cased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "31k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "BioMed-RoBERTa-base"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "ClinicalBERT"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "28k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "CodeBERT-base"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "XLM-RoBERTa-base"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "250k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "XLM-RoBERTa-large"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "250k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "24",
+            "Wymiar modelu (K/D)": "1024",
+            "Wymiar liniowej transformacji (K/D)": "4096",
+            "Liczba głowic atencji (K/D)": "16",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "BERT-base-multilingual-uncased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "105k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "BERT-base-multilingual-cased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "119k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "Longformer-base"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "4k",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "Longformer-large"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "4k",
+            "Liczba warstw (K/D)": "24",
+            "Wymiar modelu (K/D)": "1024",
+            "Wymiar liniowej transformacji (K/D)": "4096",
+            "Liczba głowic atencji (K/D)": "16",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "CamemBERT-base"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "PolishRoBERT-base"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "514",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "German-BERT-base-cased"
+        },
+        {
+            "Rodzaj architektury": "K",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "30k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "GPT-2-base"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "1k",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "1024",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "GPT-2-medium"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "1k",
+            "Liczba warstw (K/D)": "24",
+            "Wymiar modelu (K/D)": "1024",
+            "Wymiar liniowej transformacji (K/D)": "1024",
+            "Liczba głowic atencji (K/D)": "16",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "GPT-Neo-125M"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "2k",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "Pythia-70M"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "2k",
+            "Liczba warstw (K/D)": "6",
+            "Wymiar modelu (K/D)": "512",
+            "Wymiar liniowej transformacji (K/D)": "2048",
+            "Liczba głowic atencji (K/D)": "8",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "Pythia-70M-deduped"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "2k",
+            "Liczba warstw (K/D)": "6",
+            "Wymiar modelu (K/D)": "512",
+            "Wymiar liniowej transformacji (K/D)": "2048",
+            "Liczba głowic atencji (K/D)": "8",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "Pythia-160M"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "2k",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "Pythia-160M-deduped"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "2k",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "Pythia-410M"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "2k",
+            "Liczba warstw (K/D)": "24",
+            "Wymiar modelu (K/D)": "1024",
+            "Wymiar liniowej transformacji (K/D)": "4096",
+            "Liczba głowic atencji (K/D)": "16",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "Pythia-410M-deduped"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "2k",
+            "Liczba warstw (K/D)": "24",
+            "Wymiar modelu (K/D)": "1024",
+            "Wymiar liniowej transformacji (K/D)": "4096",
+            "Liczba głowic atencji (K/D)": "16",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "OPT-125M"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "2k",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "OPT-350M"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "2k",
+            "Liczba warstw (K/D)": "24",
+            "Wymiar modelu (K/D)": "1024",
+            "Wymiar liniowej transformacji (K/D)": "4096",
+            "Liczba głowic atencji (K/D)": "16",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "Cerebras-GPT-111M"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "2k",
+            "Liczba warstw (K/D)": "10",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "Cerebras-GPT-256M"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "2k",
+            "Liczba warstw (K/D)": "14",
+            "Wymiar modelu (K/D)": "1088",
+            "Wymiar liniowej transformacji (K/D)": "4352",
+            "Liczba głowic atencji (K/D)": "17",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "DistilGPT-2"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "1k",
+            "Liczba warstw (K/D)": "6",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "1024",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "BioGPT"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "42k",
+            "Długość sekwencji": "1k",
+            "Liczba warstw (K/D)": "24",
+            "Wymiar modelu (K/D)": "1024",
+            "Wymiar liniowej transformacji (K/D)": "4096",
+            "Liczba głowic atencji (K/D)": "16",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "GPT-fr-small"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "50k",
+            "Długość sekwencji": "1k",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "1024",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "PolishGPT-2-small"
+        },
+        {
+            "Rodzaj architektury": "D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "51k",
+            "Długość sekwencji": "2k",
+            "Liczba warstw (K/D)": "12",
+            "Wymiar modelu (K/D)": "768",
+            "Wymiar liniowej transformacji (K/D)": "3072",
+            "Liczba głowic atencji (K/D)": "12",
+            "Wymiar głowicy atencji (K/D)": "64"
+        },
+        {
+            "Rodzaj architektury": "T5-small"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "6/6",
+            "Wymiar modelu (K/D)": "512/512",
+            "Wymiar liniowej transformacji (K/D)": "2048/2048",
+            "Liczba głowic atencji (K/D)": "8/8",
+            "Wymiar głowicy atencji (K/D)": "64/64"
+        },
+        {
+            "Rodzaj architektury": "T5-base"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12/12",
+            "Wymiar modelu (K/D)": "768/768",
+            "Wymiar liniowej transformacji (K/D)": "3072/3072",
+            "Liczba głowic atencji (K/D)": "12/12",
+            "Wymiar głowicy atencji (K/D)": "64/64"
+        },
+        {
+            "Rodzaj architektury": "T5-small-v1.1"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "8/8",
+            "Wymiar modelu (K/D)": "512/512",
+            "Wymiar liniowej transformacji (K/D)": "1024/1024",
+            "Liczba głowic atencji (K/D)": "6/6",
+            "Wymiar głowicy atencji (K/D)": "85/85"
+        },
+        {
+            "Rodzaj architektury": "T5-base-v1.1"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12/12",
+            "Wymiar modelu (K/D)": "768/768",
+            "Wymiar liniowej transformacji (K/D)": "2048/2048",
+            "Liczba głowic atencji (K/D)": "12/12",
+            "Wymiar głowicy atencji (K/D)": "64/64"
+        },
+        {
+            "Rodzaj architektury": "T5-small-v1.1-lm-adapt"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "8/8",
+            "Wymiar modelu (K/D)": "512/512",
+            "Wymiar liniowej transformacji (K/D)": "1024/1024",
+            "Liczba głowic atencji (K/D)": "6/6",
+            "Wymiar głowicy atencji (K/D)": "85/85"
+        },
+        {
+            "Rodzaj architektury": "T5-base-v1.1-lm-adapt"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12/12",
+            "Wymiar modelu (K/D)": "768/768",
+            "Wymiar liniowej transformacji (K/D)": "2048/2048",
+            "Liczba głowic atencji (K/D)": "12/12",
+            "Wymiar głowicy atencji (K/D)": "64/64"
+        },
+        {
+            "Rodzaj architektury": "T5-efficient-tiny"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "4/4",
+            "Wymiar modelu (K/D)": "256/256",
+            "Wymiar liniowej transformacji (K/D)": "1024/1024",
+            "Liczba głowic atencji (K/D)": "4/4",
+            "Wymiar głowicy atencji (K/D)": "64/64"
+        },
+        {
+            "Rodzaj architektury": "T5-efficient-mini"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "4/4",
+            "Wymiar modelu (K/D)": "384/384",
+            "Wymiar liniowej transformacji (K/D)": "1536/1536",
+            "Liczba głowic atencji (K/D)": "8/8",
+            "Wymiar głowicy atencji (K/D)": "48/48"
+        },
+        {
+            "Rodzaj architektury": "T5-efficient-small"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "6/6",
+            "Wymiar modelu (K/D)": "512/512",
+            "Wymiar liniowej transformacji (K/D)": "2048/2048",
+            "Liczba głowic atencji (K/D)": "8/8",
+            "Wymiar głowicy atencji (K/D)": "64/64"
+        },
+        {
+            "Rodzaj architektury": "T5-efficient-base"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12/12",
+            "Wymiar modelu (K/D)": "768/768",
+            "Wymiar liniowej transformacji (K/D)": "3072/3072",
+            "Liczba głowic atencji (K/D)": "12/12",
+            "Wymiar głowicy atencji (K/D)": "64/64"
+        },
+        {
+            "Rodzaj architektury": "Switch-base-8"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12/12",
+            "Wymiar modelu (K/D)": "768/768",
+            "Wymiar liniowej transformacji (K/D)": "3072/3072",
+            "Liczba głowic atencji (K/D)": "12/12",
+            "Wymiar głowicy atencji (K/D)": "64/64"
+        },
+        {
+            "Rodzaj architektury": "FLAN-T5-small"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "8/8",
+            "Wymiar modelu (K/D)": "512/512",
+            "Wymiar liniowej transformacji (K/D)": "1024/1024",
+            "Liczba głowic atencji (K/D)": "6/6",
+            "Wymiar głowicy atencji (K/D)": "85/85"
+        },
+        {
+            "Rodzaj architektury": "FLAN-T5-base"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "512",
+            "Liczba warstw (K/D)": "12/12",
+            "Wymiar modelu (K/D)": "768/768",
+            "Wymiar liniowej transformacji (K/D)": "2048/2048",
+            "Liczba głowic atencji (K/D)": "12/12",
+            "Wymiar głowicy atencji (K/D)": "64/64"
+        },
+        {
+            "Rodzaj architektury": "mT5-small"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "250k",
+            "Długość sekwencji": "1k",
+            "Liczba warstw (K/D)": "8/8",
+            "Wymiar modelu (K/D)": "512/512",
+            "Wymiar liniowej transformacji (K/D)": "1024/1024",
+            "Liczba głowic atencji (K/D)": "6/6",
+            "Wymiar głowicy atencji (K/D)": "85/85"
+        },
+        {
+            "Rodzaj architektury": "mT5-base"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "250k",
+            "Długość sekwencji": "1k",
+            "Liczba warstw (K/D)": "12/12",
+            "Wymiar modelu (K/D)": "768/768",
+            "Wymiar liniowej transformacji (K/D)": "2048/2048",
+            "Liczba głowic atencji (K/D)": "12/12",
+            "Wymiar głowicy atencji (K/D)": "64/64"
+        },
+        {
+            "Rodzaj architektury": "ByT5-small"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "384",
+            "Długość sekwencji": "1k",
+            "Liczba warstw (K/D)": "12/4",
+            "Wymiar modelu (K/D)": "1472/1472",
+            "Wymiar liniowej transformacji (K/D)": "3584/3584",
+            "Liczba głowic atencji (K/D)": "6/6",
+            "Wymiar głowicy atencji (K/D)": "245/245"
+        },
+        {
+            "Rodzaj architektury": "ByT5-base"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "384",
+            "Długość sekwencji": "1k",
+            "Liczba warstw (K/D)": "18/6",
+            "Wymiar modelu (K/D)": "1536/1536",
+            "Wymiar liniowej transformacji (K/D)": "3968/3968",
+            "Liczba głowic atencji (K/D)": "12/12",
+            "Wymiar głowicy atencji (K/D)": "128/128"
+        },
+        {
+            "Rodzaj architektury": "LongT5-TGlobal-base"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "4k",
+            "Liczba warstw (K/D)": "12/12",
+            "Wymiar modelu (K/D)": "768/768",
+            "Wymiar liniowej transformacji (K/D)": "2048/2048",
+            "Liczba głowic atencji (K/D)": "12/12",
+            "Wymiar głowicy atencji (K/D)": "64/64"
+        },
+        {
+            "Rodzaj architektury": "LongT5-Local-base"
+        },
+        {
+            "Rodzaj architektury": "K-D",
+            "Liczba parametrów": "-",
+            "Wielkość słownika": "32k",
+            "Długość sekwencji": "4k",
+            "Liczba warstw (K/D)": "12/12",
+            "Wymiar modelu (K/D)": "768/768",
+            "Wymiar liniowej transformacji (K/D)": "2048/2048",
+            "Liczba głowic atencji (K/D)": "12/12",
+            "Wymiar głowicy atencji (K/D)": "64/64"
+        }
+    ],
+    "one_line_row_names": [
+        "RoBERTa-base",
+        "RoBERTa-large",
+        "BERT-base-cased",
+        "BERT-base-uncased",
+        "BERT-large-cased",
+        "BERT-large-uncased",
+        "BERT-tiny-uncased",
+        "BERT-mini-uncased",
+        "BERT-small-uncased",
+        "BERT-medium-uncased",
+        "DistilRoBERTa-base",
+        "DistilBERT-base-cased",
+        "DistilBERT-base-uncased",
+        "ALBERT-base",
+        "ALBERT-large",
+        "MobileBERT-uncased",
+        "FinBERT",
+        "SciBERT-uncased",
+        "SciBERT-cased",
+        "BioMed-RoBERTa-base",
+        "ClinicalBERT",
+        "CodeBERT-base",
+        "XLM-RoBERTa-base",
+        "XLM-RoBERTa-large",
+        "BERT-base-multilingual-uncased",
+        "BERT-base-multilingual-cased",
+        "Longformer-base",
+        "Longformer-large",
+        "CamemBERT-base",
+        "PolishRoBERT-base",
+        "German-BERT-base-cased",
+        "GPT-2-base",
+        "GPT-2-medium",
+        "GPT-Neo-125M",
+        "Pythia-70M",
+        "Pythia-70M-deduped",
+        "Pythia-160M",
+        "Pythia-160M-deduped",
+        "Pythia-410M",
+        "Pythia-410M-deduped",
+        "OPT-125M",
+        "OPT-350M",
+        "Cerebras-GPT-111M",
+        "Cerebras-GPT-256M",
+        "DistilGPT-2",
+        "BioGPT",
+        "GPT-fr-small",
+        "PolishGPT-2-small",
+        "T5-small",
+        "T5-base",
+        "T5-small-v1.1",
+        "T5-base-v1.1",
+        "T5-small-v1.1-lm-adapt",
+        "T5-base-v1.1-lm-adapt",
+        "T5-efficient-tiny",
+        "T5-efficient-mini",
+        "T5-efficient-small",
+        "T5-efficient-base",
+        "Switch-base-8",
+        "FLAN-T5-small",
+        "FLAN-T5-base",
+        "mT5-small",
+        "mT5-base",
+        "ByT5-small",
+        "ByT5-base",
+        "LongT5-TGlobal-base",
+        "LongT5-Local-base"
+    ],
+    "skip_row_name": true
+}

@@ -1,0 +1,74 @@
+{
+    "column_names": [
+        "CoLA",
+        "MNLI-m",
+        "MNLI-mm",
+        "MRPC",
+        "QNLI",
+        "QQP",
+        "RTE",
+        "SST-2",
+        "STS-B",
+        "AVG"
+    ],
+    "row_names": [
+        "RoBERTa-base",
+        "RoBERTa-base data",
+        "RoBERTa-large",
+        "RoBERTa-large data",
+        "BERT-base",
+        "BERT-base data",
+        "BERT-large",
+        "BERT-large data"
+    ],
+    "row_data": [
+        {},
+        {},
+        {},
+        {
+            "CoLA": "67.80",
+            "MNLI-m": "90.80",
+            "MNLI-mm": "90.20",
+            "MRPC": "92.30",
+            "QNLI": "95.40",
+            "QQP": "74.30",
+            "RTE": "88.20",
+            "SST-2": "96.70",
+            "STS-B": "89.80",
+            "AVG": "87.28"
+        },
+        {},
+        {
+            "CoLA": "52.10",
+            "MNLI-m": "84.60",
+            "MNLI-mm": "83.40",
+            "MRPC": "88.90",
+            "QNLI": "90.50",
+            "QQP": "71.20",
+            "RTE": "66.40",
+            "SST-2": "93.50",
+            "STS-B": "85.80",
+            "AVG": "79.60"
+        },
+        {},
+        {
+            "CoLA": "60.50",
+            "MNLI-m": "86.70",
+            "MNLI-mm": "85.90",
+            "MRPC": "89.30",
+            "QNLI": "92.70",
+            "QQP": "72.10",
+            "RTE": "70.10",
+            "SST-2": "94.90",
+            "STS-B": "86.50",
+            "AVG": "82.08"
+        }
+    ],
+    "one_line_row_names": [
+        "RoBERTa-base",
+        "RoBERTa-large",
+        "BERT-base",
+        "BERT-large"
+    ],
+    "skip_row_name": true
+}

@@ -1,0 +1,82 @@
+{
+    "model_list": [
+        "RoBERTa-base",
+        "RoBERTa-large",
+        "BERT-base",
+        "BERT-large"
+    ],
+    "metrics": {
+        "CoLA": "Matthews correlation",
+        "MNLI-m": "Accuracy",
+        "MNLI-mm": "Accuracy",
+        "MRPC": "F1 score",
+        "QNLI": "Accuracy",
+        "QQP": "F1 score",
+        "RTE": "Accuracy",
+        "SST-2": "Accuracy",
+        "STS-B": "Spearman Correlation",
+        "AVG": "Average score"
+    },
+    "results": {
+        "CoLA": {
+            "RoBERTa-base": null,
+            "RoBERTa-large": 67.8,
+            "BERT-base": 52.1,
+            "BERT-large": 60.5
+        },
+        "MNLI-m": {
+            "RoBERTa-base": null,
+            "RoBERTa-large": 90.8,
+            "BERT-base": 84.6,
+            "BERT-large": 86.7
+        },
+        "MNLI-mm": {
+            "RoBERTa-base": null,
+            "RoBERTa-large": 90.2,
+            "BERT-base": 83.4,
+            "BERT-large": 85.9
+        },
+        "MRPC": {
+            "RoBERTa-base": null,
+            "RoBERTa-large": 92.3,
+            "BERT-base": 88.9,
+            "BERT-large": 89.3
+        },
+        "QNLI": {
+            "RoBERTa-base": null,
+            "RoBERTa-large": 95.4,
+            "BERT-base": 90.5,
+            "BERT-large": 92.7
+        },
+        "QQP": {
+            "RoBERTa-base": null,
+            "RoBERTa-large": 74.3,
+            "BERT-base": 71.2,
+            "BERT-large": 72.1
+        },
+        "RTE": {
+            "RoBERTa-base": null,
+            "RoBERTa-large": 88.2,
+            "BERT-base": 66.4,
+            "BERT-large": 70.1
+        },
+        "SST-2": {
+            "RoBERTa-base": null,
+            "RoBERTa-large": 96.7,
+            "BERT-base": 93.5,
+            "BERT-large": 94.9
+        },
+        "STS-B": {
+            "RoBERTa-base": null,
+            "RoBERTa-large": 89.8,
+            "BERT-base": 85.8,
+            "BERT-large": 86.5
+        },
+        "AVG": {
+            "RoBERTa-base": null,
+            "RoBERTa-large": 87.28,
+            "BERT-base": 79.6,
+            "BERT-large": 82.08
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "is_number",
+    "data": {
+        "is_number": 948
+    },
+    "total": 135612,
+    "statistics": {
+        "total_elements": 0,
+        "max_value": 0.0,
+        "min_value": 0.0,
+        "avg_value": 0.0,
+        "std_value": 0.0
+    },
+    "draw_option": {
+        "visualization_type": "pie",
+        "title_x": "-",
+        "title_y": "-",
+        "other_label_name": "Nie jest liczbą",
+        "map_key_to_label_name": {
+            "is_number": "Jest liczbą"
+        }
+    }
+}

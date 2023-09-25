@@ -1,0 +1,2312 @@
+[
+    {
+        "name": "LM-GAP",
+        "model_names": [
+            "ALBERT-base",
+            "ALBERT-large",
+            "ALBERT-xlarge",
+            "ALBERT-xxlarge",
+            "BERT-base-cased",
+            "BERT-base-multilingual-cased",
+            "BERT-base-multilingual-uncased",
+            "BERT-base-uncased",
+            "BERT-large-cased",
+            "BERT-large-uncased",
+            "BERT-medium-uncased",
+            "BERT-mini-uncased",
+            "BERT-small-uncased",
+            "BERT-tiny-uncased",
+            "BioGPT",
+            "BioMed-RoBERTa-base",
+            "ByT5-base",
+            "ByT5-small",
+            "CamemBERT-base",
+            "Cerebras-GPT-111M",
+            "Cerebras-GPT-256M",
+            "ClinicalBERT",
+            "CodeBERT-base",
+            "DistilBERT-base-cased",
+            "DistilBERT-base-uncased",
+            "DistilGPT-2",
+            "DistilRoBERTa-base",
+            "FLAN-T5-base",
+            "FLAN-T5-large",
+            "FLAN-T5-small",
+            "FinBERT",
+            "GPT-2-base",
+            "GPT-2-large",
+            "GPT-2-medium",
+            "GPT-Neo-125M",
+            "GPT-fr-base",
+            "GPT-fr-small",
+            "German-BERT-base-cased",
+            "LongT5-Local-base",
+            "LongT5-TGlobal-base",
+            "MiniLM-L12-H384-RoBERTa-large",
+            "MiniLM-L12-H384-XLMR-Large",
+            "MiniLM-L6-H384-BERT-base-uncased",
+            "MiniLM-L6-H384-BERT-large-uncased",
+            "MiniLM-L6-H384-RoBERTa-large",
+            "MiniLM-L6-H384-XLMR-Large",
+            "MiniLM-L6-H768-BERT-base-uncased",
+            "MiniLM-L6-H768-BERT-large-uncased",
+            "MiniLM-L6-H768-RoBERTa-large",
+            "MobileBERT-uncased",
+            "OPT-125M",
+            "OPT-350M",
+            "PolishGPT-2-large",
+            "PolishGPT-2-medium",
+            "PolishGPT-2-small",
+            "PolishRoBERT-base",
+            "Pythia-160M",
+            "Pythia-160M-deduped",
+            "Pythia-410M",
+            "Pythia-410M-deduped",
+            "Pythia-70M",
+            "Pythia-70M-deduped",
+            "RoBERTa-base",
+            "RoBERTa-large",
+            "SciBERT-cased",
+            "SciBERT-uncased",
+            "SportsBERT",
+            "Switch-base-8",
+            "T5-base",
+            "T5-base-v1.1",
+            "T5-base-v1.1-lm-adapt",
+            "T5-efficient-base",
+            "T5-efficient-large",
+            "T5-efficient-mini",
+            "T5-efficient-small",
+            "T5-efficient-tiny",
+            "T5-large",
+            "T5-large-v1.1",
+            "T5-large-v1.1-lm-adapt",
+            "T5-small",
+            "T5-small-v1.1",
+            "T5-small-v1.1-lm-adapt",
+            "XLM-100-lang",
+            "XLM-17-lang",
+            "XLM-RoBERTa-base",
+            "XLM-RoBERTa-large",
+            "XLM-en",
+            "mT5-base",
+            "mT5-large",
+            "mT5-small",
+            "Średnia"
+        ],
+        "model_name_to_result": {
+            "ALBERT-base": {
+                "model_name": "ALBERT-base",
+                "score": 1575.853755
+            },
+            "ALBERT-large": {
+                "model_name": "ALBERT-large",
+                "score": 933.385723
+            },
+            "ALBERT-xlarge": {
+                "model_name": "ALBERT-xlarge",
+                "score": 730.841384
+            },
+            "ALBERT-xxlarge": {
+                "model_name": "ALBERT-xxlarge",
+                "score": 746.990635
+            },
+            "BERT-base-cased": {
+                "model_name": "BERT-base-cased",
+                "score": 172.101095
+            },
+            "BERT-base-multilingual-cased": {
+                "model_name": "BERT-base-multilingual-cased",
+                "score": 635.838112
+            },
+            "BERT-base-multilingual-uncased": {
+                "model_name": "BERT-base-multilingual-uncased",
+                "score": 1477.047924
+            },
+            "BERT-base-uncased": {
+                "model_name": "BERT-base-uncased",
+                "score": 804.253307
+            },
+            "BERT-large-cased": {
+                "model_name": "BERT-large-cased",
+                "score": 125.733251
+            },
+            "BERT-large-uncased": {
+                "model_name": "BERT-large-uncased",
+                "score": 670.671724
+            },
+            "BERT-medium-uncased": {
+                "model_name": "BERT-medium-uncased",
+                "score": 1260.641963
+            },
+            "BERT-mini-uncased": {
+                "model_name": "BERT-mini-uncased",
+                "score": 2714.984099
+            },
+            "BERT-small-uncased": {
+                "model_name": "BERT-small-uncased",
+                "score": 1577.662051
+            },
+            "BERT-tiny-uncased": {
+                "model_name": "BERT-tiny-uncased",
+                "score": 7540.60673
+            },
+            "BioGPT": {
+                "model_name": "BioGPT",
+                "score": 9377.074086
+            },
+            "BioMed-RoBERTa-base": {
+                "model_name": "BioMed-RoBERTa-base",
+                "score": 312.16927
+            },
+            "ByT5-base": {
+                "model_name": "ByT5-base",
+                "score": 855967.364657
+            },
+            "ByT5-small": {
+                "model_name": "ByT5-small",
+                "score": 584584.351424
+            },
+            "CamemBERT-base": {
+                "model_name": "CamemBERT-base",
+                "score": 3469.326138
+            },
+            "Cerebras-GPT-111M": {
+                "model_name": "Cerebras-GPT-111M",
+                "score": 7638.672839
+            },
+            "Cerebras-GPT-256M": {
+                "model_name": "Cerebras-GPT-256M",
+                "score": 5563.248365
+            },
+            "ClinicalBERT": {
+                "model_name": "ClinicalBERT",
+                "score": 4443.596582
+            },
+            "CodeBERT-base": {
+                "model_name": "CodeBERT-base",
+                "score": 1174.661467
+            },
+            "DistilBERT-base-cased": {
+                "model_name": "DistilBERT-base-cased",
+                "score": 494.413642
+            },
+            "DistilBERT-base-uncased": {
+                "model_name": "DistilBERT-base-uncased",
+                "score": 1303.640415
+            },
+            "DistilGPT-2": {
+                "model_name": "DistilGPT-2",
+                "score": 9714.724445
+            },
+            "DistilRoBERTa-base": {
+                "model_name": "DistilRoBERTa-base",
+                "score": 179.690259
+            },
+            "FLAN-T5-base": {
+                "model_name": "FLAN-T5-base",
+                "score": 118104.56829
+            },
+            "FLAN-T5-large": {
+                "model_name": "FLAN-T5-large",
+                "score": 562529.862349
+            },
+            "FLAN-T5-small": {
+                "model_name": "FLAN-T5-small",
+                "score": 324604.408047
+            },
+            "FinBERT": {
+                "model_name": "FinBERT",
+                "score": 3527.824565
+            },
+            "GPT-2-base": {
+                "model_name": "GPT-2-base",
+                "score": 4700.318867
+            },
+            "GPT-2-large": {
+                "model_name": "GPT-2-large",
+                "score": 2127.392772
+            },
+            "GPT-2-medium": {
+                "model_name": "GPT-2-medium",
+                "score": 2250.943823
+            },
+            "GPT-Neo-125M": {
+                "model_name": "GPT-Neo-125M",
+                "score": 4373.950153
+            },
+            "GPT-fr-base": {
+                "model_name": "GPT-fr-base",
+                "score": 46362.459344
+            },
+            "GPT-fr-small": {
+                "model_name": "GPT-fr-small",
+                "score": 38199.695407
+            },
+            "German-BERT-base-cased": {
+                "model_name": "German-BERT-base-cased",
+                "score": 27859.712465
+            },
+            "LongT5-Local-base": {
+                "model_name": "LongT5-Local-base",
+                "score": 1008375.972086
+            },
+            "LongT5-TGlobal-base": {
+                "model_name": "LongT5-TGlobal-base",
+                "score": 211414.917005
+            },
+            "MiniLM-L12-H384-RoBERTa-large": {
+                "model_name": "MiniLM-L12-H384-RoBERTa-large",
+                "score": 875114.46271
+            },
+            "MiniLM-L12-H384-XLMR-Large": {
+                "model_name": "MiniLM-L12-H384-XLMR-Large",
+                "score": 876508.944709
+            },
+            "MiniLM-L6-H384-BERT-base-uncased": {
+                "model_name": "MiniLM-L6-H384-BERT-base-uncased",
+                "score": 869300.217146
+            },
+            "MiniLM-L6-H384-BERT-large-uncased": {
+                "model_name": "MiniLM-L6-H384-BERT-large-uncased",
+                "score": 869819.109384
+            },
+            "MiniLM-L6-H384-RoBERTa-large": {
+                "model_name": "MiniLM-L6-H384-RoBERTa-large",
+                "score": 875278.906409
+            },
+            "MiniLM-L6-H384-XLMR-Large": {
+                "model_name": "MiniLM-L6-H384-XLMR-Large",
+                "score": 867987.178408
+            },
+            "MiniLM-L6-H768-BERT-base-uncased": {
+                "model_name": "MiniLM-L6-H768-BERT-base-uncased",
+                "score": 870332.354133
+            },
+            "MiniLM-L6-H768-BERT-large-uncased": {
+                "model_name": "MiniLM-L6-H768-BERT-large-uncased",
+                "score": 873852.303343
+            },
+            "MiniLM-L6-H768-RoBERTa-large": {
+                "model_name": "MiniLM-L6-H768-RoBERTa-large",
+                "score": 869124.251622
+            },
+            "MobileBERT-uncased": {
+                "model_name": "MobileBERT-uncased",
+                "score": 913.525374
+            },
+            "OPT-125M": {
+                "model_name": "OPT-125M",
+                "score": 2021.615293
+            },
+            "OPT-350M": {
+                "model_name": "OPT-350M",
+                "score": 1767.228754
+            },
+            "PolishGPT-2-large": {
+                "model_name": "PolishGPT-2-large",
+                "score": 47767.398812
+            },
+            "PolishGPT-2-medium": {
+                "model_name": "PolishGPT-2-medium",
+                "score": 58446.342067
+            },
+            "PolishGPT-2-small": {
+                "model_name": "PolishGPT-2-small",
+                "score": 79278.556763
+            },
+            "PolishRoBERT-base": {
+                "model_name": "PolishRoBERT-base",
+                "score": 12559.885478
+            },
+            "Pythia-160M": {
+                "model_name": "Pythia-160M",
+                "score": 5102.745002
+            },
+            "Pythia-160M-deduped": {
+                "model_name": "Pythia-160M-deduped",
+                "score": 5450.904827
+            },
+            "Pythia-410M": {
+                "model_name": "Pythia-410M",
+                "score": 3613.638198
+            },
+            "Pythia-410M-deduped": {
+                "model_name": "Pythia-410M-deduped",
+                "score": 3927.458173
+            },
+            "Pythia-70M": {
+                "model_name": "Pythia-70M",
+                "score": 7722.035526
+            },
+            "Pythia-70M-deduped": {
+                "model_name": "Pythia-70M-deduped",
+                "score": 8823.053914
+            },
+            "RoBERTa-base": {
+                "model_name": "RoBERTa-base",
+                "score": 91.907166
+            },
+            "RoBERTa-large": {
+                "model_name": "RoBERTa-large",
+                "score": 69.393009
+            },
+            "SciBERT-cased": {
+                "model_name": "SciBERT-cased",
+                "score": 2072.331054
+            },
+            "SciBERT-uncased": {
+                "model_name": "SciBERT-uncased",
+                "score": 1681.679705
+            },
+            "SportsBERT": {
+                "model_name": "SportsBERT",
+                "score": 4407.714425
+            },
+            "Switch-base-8": {
+                "model_name": "Switch-base-8",
+                "score": 349.968606
+            },
+            "T5-base": {
+                "model_name": "T5-base",
+                "score": 274.69434
+            },
+            "T5-base-v1.1": {
+                "model_name": "T5-base-v1.1",
+                "score": 267972.64644
+            },
+            "T5-base-v1.1-lm-adapt": {
+                "model_name": "T5-base-v1.1-lm-adapt",
+                "score": 63737.130182
+            },
+            "T5-efficient-base": {
+                "model_name": "T5-efficient-base",
+                "score": 124430.988625
+            },
+            "T5-efficient-large": {
+                "model_name": "T5-efficient-large",
+                "score": 84932.099781
+            },
+            "T5-efficient-mini": {
+                "model_name": "T5-efficient-mini",
+                "score": 510519.379968
+            },
+            "T5-efficient-small": {
+                "model_name": "T5-efficient-small",
+                "score": 277887.449243
+            },
+            "T5-efficient-tiny": {
+                "model_name": "T5-efficient-tiny",
+                "score": 418979.060903
+            },
+            "T5-large": {
+                "model_name": "T5-large",
+                "score": 192.323406
+            },
+            "T5-large-v1.1": {
+                "model_name": "T5-large-v1.1",
+                "score": 415089.099066
+            },
+            "T5-large-v1.1-lm-adapt": {
+                "model_name": "T5-large-v1.1-lm-adapt",
+                "score": 300663.100084
+            },
+            "T5-small": {
+                "model_name": "T5-small",
+                "score": 782.865991
+            },
+            "T5-small-v1.1": {
+                "model_name": "T5-small-v1.1",
+                "score": 282303.546243
+            },
+            "T5-small-v1.1-lm-adapt": {
+                "model_name": "T5-small-v1.1-lm-adapt",
+                "score": 233990.717024
+            },
+            "XLM-100-lang": {
+                "model_name": "XLM-100-lang",
+                "score": 15046.785077
+            },
+            "XLM-17-lang": {
+                "model_name": "XLM-17-lang",
+                "score": 52129.248038
+            },
+            "XLM-RoBERTa-base": {
+                "model_name": "XLM-RoBERTa-base",
+                "score": 193.883054
+            },
+            "XLM-RoBERTa-large": {
+                "model_name": "XLM-RoBERTa-large",
+                "score": 138.830588
+            },
+            "XLM-en": {
+                "model_name": "XLM-en",
+                "score": 428281.101166
+            },
+            "mT5-base": {
+                "model_name": "mT5-base",
+                "score": 2491.97992
+            },
+            "mT5-large": {
+                "model_name": "mT5-large",
+                "score": 1615.68719
+            },
+            "mT5-small": {
+                "model_name": "mT5-small",
+                "score": 3976.321841
+            },
+            "Średnia": {
+                "model_name": "Średnia",
+                "score": 171540.39576327777
+            }
+        }
+    },
+    {
+        "name": "left_context_length_1",
+        "model_names": [
+            "ALBERT-base",
+            "ALBERT-large",
+            "ALBERT-xlarge",
+            "ALBERT-xxlarge",
+            "BERT-base-cased",
+            "BERT-base-multilingual-cased",
+            "BERT-base-multilingual-uncased",
+            "BERT-base-uncased",
+            "BERT-large-cased",
+            "BERT-large-uncased",
+            "BERT-medium-uncased",
+            "BERT-mini-uncased",
+            "BERT-small-uncased",
+            "BERT-tiny-uncased",
+            "BioGPT",
+            "BioMed-RoBERTa-base",
+            "ByT5-base",
+            "ByT5-small",
+            "CamemBERT-base",
+            "Cerebras-GPT-111M",
+            "Cerebras-GPT-256M",
+            "ClinicalBERT",
+            "CodeBERT-base",
+            "DistilBERT-base-cased",
+            "DistilBERT-base-uncased",
+            "DistilGPT-2",
+            "DistilRoBERTa-base",
+            "FLAN-T5-base",
+            "FLAN-T5-large",
+            "FLAN-T5-small",
+            "FinBERT",
+            "GPT-2-base",
+            "GPT-2-large",
+            "GPT-2-medium",
+            "GPT-Neo-125M",
+            "GPT-fr-base",
+            "GPT-fr-small",
+            "German-BERT-base-cased",
+            "LongT5-Local-base",
+            "LongT5-TGlobal-base",
+            "MiniLM-L12-H384-RoBERTa-large",
+            "MiniLM-L12-H384-XLMR-Large",
+            "MiniLM-L6-H384-BERT-base-uncased",
+            "MiniLM-L6-H384-BERT-large-uncased",
+            "MiniLM-L6-H384-RoBERTa-large",
+            "MiniLM-L6-H384-XLMR-Large",
+            "MiniLM-L6-H768-BERT-base-uncased",
+            "MiniLM-L6-H768-BERT-large-uncased",
+            "MiniLM-L6-H768-RoBERTa-large",
+            "MobileBERT-uncased",
+            "OPT-125M",
+            "OPT-350M",
+            "PolishGPT-2-large",
+            "PolishGPT-2-medium",
+            "PolishGPT-2-small",
+            "PolishRoBERT-base",
+            "Pythia-160M",
+            "Pythia-160M-deduped",
+            "Pythia-410M",
+            "Pythia-410M-deduped",
+            "Pythia-70M",
+            "Pythia-70M-deduped",
+            "RoBERTa-base",
+            "RoBERTa-large",
+            "SciBERT-cased",
+            "SciBERT-uncased",
+            "SportsBERT",
+            "Switch-base-8",
+            "T5-base",
+            "T5-base-v1.1",
+            "T5-base-v1.1-lm-adapt",
+            "T5-efficient-base",
+            "T5-efficient-large",
+            "T5-efficient-mini",
+            "T5-efficient-small",
+            "T5-efficient-tiny",
+            "T5-large",
+            "T5-large-v1.1",
+            "T5-large-v1.1-lm-adapt",
+            "T5-small",
+            "T5-small-v1.1",
+            "T5-small-v1.1-lm-adapt",
+            "XLM-100-lang",
+            "XLM-17-lang",
+            "XLM-RoBERTa-base",
+            "XLM-RoBERTa-large",
+            "XLM-en",
+            "mT5-base",
+            "mT5-large",
+            "mT5-small",
+            "Średnia"
+        ],
+        "model_name_to_result": {
+            "ALBERT-base": {
+                "model_name": "ALBERT-base",
+                "score": 1400.574439
+            },
+            "ALBERT-large": {
+                "model_name": "ALBERT-large",
+                "score": 783.731242
+            },
+            "ALBERT-xlarge": {
+                "model_name": "ALBERT-xlarge",
+                "score": 602.451497
+            },
+            "ALBERT-xxlarge": {
+                "model_name": "ALBERT-xxlarge",
+                "score": 590.173595
+            },
+            "BERT-base-cased": {
+                "model_name": "BERT-base-cased",
+                "score": 408.101917
+            },
+            "BERT-base-multilingual-cased": {
+                "model_name": "BERT-base-multilingual-cased",
+                "score": 1470.788502
+            },
+            "BERT-base-multilingual-uncased": {
+                "model_name": "BERT-base-multilingual-uncased",
+                "score": 1294.666623
+            },
+            "BERT-base-uncased": {
+                "model_name": "BERT-base-uncased",
+                "score": 632.884695
+            },
+            "BERT-large-cased": {
+                "model_name": "BERT-large-cased",
+                "score": 301.616703
+            },
+            "BERT-large-uncased": {
+                "model_name": "BERT-large-uncased",
+                "score": 526.048432
+            },
+            "BERT-medium-uncased": {
+                "model_name": "BERT-medium-uncased",
+                "score": 1009.709335
+            },
+            "BERT-mini-uncased": {
+                "model_name": "BERT-mini-uncased",
+                "score": 2376.578671
+            },
+            "BERT-small-uncased": {
+                "model_name": "BERT-small-uncased",
+                "score": 1306.278733
+            },
+            "BERT-tiny-uncased": {
+                "model_name": "BERT-tiny-uncased",
+                "score": 6881.769906
+            },
+            "BioGPT": {
+                "model_name": "BioGPT",
+                "score": 8634.586347
+            },
+            "BioMed-RoBERTa-base": {
+                "model_name": "BioMed-RoBERTa-base",
+                "score": 765.123139
+            },
+            "ByT5-base": {
+                "model_name": "ByT5-base",
+                "score": 870219.063758
+            },
+            "ByT5-small": {
+                "model_name": "ByT5-small",
+                "score": 561975.72293
+            },
+            "CamemBERT-base": {
+                "model_name": "CamemBERT-base",
+                "score": 7851.826063
+            },
+            "Cerebras-GPT-111M": {
+                "model_name": "Cerebras-GPT-111M",
+                "score": 5449.704754
+            },
+            "Cerebras-GPT-256M": {
+                "model_name": "Cerebras-GPT-256M",
+                "score": 3948.559524
+            },
+            "ClinicalBERT": {
+                "model_name": "ClinicalBERT",
+                "score": 3888.472664
+            },
+            "CodeBERT-base": {
+                "model_name": "CodeBERT-base",
+                "score": 2512.020241
+            },
+            "DistilBERT-base-cased": {
+                "model_name": "DistilBERT-base-cased",
+                "score": 1005.055921
+            },
+            "DistilBERT-base-uncased": {
+                "model_name": "DistilBERT-base-uncased",
+                "score": 1115.475056
+            },
+            "DistilGPT-2": {
+                "model_name": "DistilGPT-2",
+                "score": 4331.889934
+            },
+            "DistilRoBERTa-base": {
+                "model_name": "DistilRoBERTa-base",
+                "score": 439.138554
+            },
+            "FLAN-T5-base": {
+                "model_name": "FLAN-T5-base",
+                "score": 122768.637667
+            },
+            "FLAN-T5-large": {
+                "model_name": "FLAN-T5-large",
+                "score": 592486.355206
+            },
+            "FLAN-T5-small": {
+                "model_name": "FLAN-T5-small",
+                "score": 329184.736197
+            },
+            "FinBERT": {
+                "model_name": "FinBERT",
+                "score": 3165.686729
+            },
+            "GPT-2-base": {
+                "model_name": "GPT-2-base",
+                "score": 2982.994281
+            },
+            "GPT-2-large": {
+                "model_name": "GPT-2-large",
+                "score": 2029.714895
+            },
+            "GPT-2-medium": {
+                "model_name": "GPT-2-medium",
+                "score": 2308.117651
+            },
+            "GPT-Neo-125M": {
+                "model_name": "GPT-Neo-125M",
+                "score": 3382.999018
+            },
+            "GPT-fr-base": {
+                "model_name": "GPT-fr-base",
+                "score": 38013.409222
+            },
+            "GPT-fr-small": {
+                "model_name": "GPT-fr-small",
+                "score": 28753.415395
+            },
+            "German-BERT-base-cased": {
+                "model_name": "German-BERT-base-cased",
+                "score": 32966.236996
+            },
+            "LongT5-Local-base": {
+                "model_name": "LongT5-Local-base",
+                "score": 1009804.479293
+            },
+            "LongT5-TGlobal-base": {
+                "model_name": "LongT5-TGlobal-base",
+                "score": 165935.590073
+            },
+            "MiniLM-L12-H384-RoBERTa-large": {
+                "model_name": "MiniLM-L12-H384-RoBERTa-large",
+                "score": 866465.25158
+            },
+            "MiniLM-L12-H384-XLMR-Large": {
+                "model_name": "MiniLM-L12-H384-XLMR-Large",
+                "score": 872870.702913
+            },
+            "MiniLM-L6-H384-BERT-base-uncased": {
+                "model_name": "MiniLM-L6-H384-BERT-base-uncased",
+                "score": 876624.003777
+            },
+            "MiniLM-L6-H384-BERT-large-uncased": {
+                "model_name": "MiniLM-L6-H384-BERT-large-uncased",
+                "score": 865006.88081
+            },
+            "MiniLM-L6-H384-RoBERTa-large": {
+                "model_name": "MiniLM-L6-H384-RoBERTa-large",
+                "score": 870982.515446
+            },
+            "MiniLM-L6-H384-XLMR-Large": {
+                "model_name": "MiniLM-L6-H384-XLMR-Large",
+                "score": 872859.656014
+            },
+            "MiniLM-L6-H768-BERT-base-uncased": {
+                "model_name": "MiniLM-L6-H768-BERT-base-uncased",
+                "score": 875701.23149
+            },
+            "MiniLM-L6-H768-BERT-large-uncased": {
+                "model_name": "MiniLM-L6-H768-BERT-large-uncased",
+                "score": 871051.014858
+            },
+            "MiniLM-L6-H768-RoBERTa-large": {
+                "model_name": "MiniLM-L6-H768-RoBERTa-large",
+                "score": 872787.309145
+            },
+            "MobileBERT-uncased": {
+                "model_name": "MobileBERT-uncased",
+                "score": 709.564802
+            },
+            "OPT-125M": {
+                "model_name": "OPT-125M",
+                "score": 2807.72468
+            },
+            "OPT-350M": {
+                "model_name": "OPT-350M",
+                "score": 2383.40089
+            },
+            "PolishGPT-2-large": {
+                "model_name": "PolishGPT-2-large",
+                "score": 42971.397336
+            },
+            "PolishGPT-2-medium": {
+                "model_name": "PolishGPT-2-medium",
+                "score": 49426.100075
+            },
+            "PolishGPT-2-small": {
+                "model_name": "PolishGPT-2-small",
+                "score": 59927.654128
+            },
+            "PolishRoBERT-base": {
+                "model_name": "PolishRoBERT-base",
+                "score": 21480.293005
+            },
+            "Pythia-160M": {
+                "model_name": "Pythia-160M",
+                "score": 3760.177115
+            },
+            "Pythia-160M-deduped": {
+                "model_name": "Pythia-160M-deduped",
+                "score": 3557.781109
+            },
+            "Pythia-410M": {
+                "model_name": "Pythia-410M",
+                "score": 2532.93194
+            },
+            "Pythia-410M-deduped": {
+                "model_name": "Pythia-410M-deduped",
+                "score": 2448.601665
+            },
+            "Pythia-70M": {
+                "model_name": "Pythia-70M",
+                "score": 6025.740031
+            },
+            "Pythia-70M-deduped": {
+                "model_name": "Pythia-70M-deduped",
+                "score": 5844.774936
+            },
+            "RoBERTa-base": {
+                "model_name": "RoBERTa-base",
+                "score": 229.14398
+            },
+            "RoBERTa-large": {
+                "model_name": "RoBERTa-large",
+                "score": 168.026765
+            },
+            "SciBERT-cased": {
+                "model_name": "SciBERT-cased",
+                "score": 1750.906958
+            },
+            "SciBERT-uncased": {
+                "model_name": "SciBERT-uncased",
+                "score": 1408.755527
+            },
+            "SportsBERT": {
+                "model_name": "SportsBERT",
+                "score": 4459.374002
+            },
+            "Switch-base-8": {
+                "model_name": "Switch-base-8",
+                "score": 463.606485
+            },
+            "T5-base": {
+                "model_name": "T5-base",
+                "score": 618.560357
+            },
+            "T5-base-v1.1": {
+                "model_name": "T5-base-v1.1",
+                "score": 507178.303786
+            },
+            "T5-base-v1.1-lm-adapt": {
+                "model_name": "T5-base-v1.1-lm-adapt",
+                "score": 131605.894734
+            },
+            "T5-efficient-base": {
+                "model_name": "T5-efficient-base",
+                "score": 283962.209928
+            },
+            "T5-efficient-large": {
+                "model_name": "T5-efficient-large",
+                "score": 232621.33314
+            },
+            "T5-efficient-mini": {
+                "model_name": "T5-efficient-mini",
+                "score": 504278.204513
+            },
+            "T5-efficient-small": {
+                "model_name": "T5-efficient-small",
+                "score": 434987.588578
+            },
+            "T5-efficient-tiny": {
+                "model_name": "T5-efficient-tiny",
+                "score": 409699.407676
+            },
+            "T5-large": {
+                "model_name": "T5-large",
+                "score": 419.768897
+            },
+            "T5-large-v1.1": {
+                "model_name": "T5-large-v1.1",
+                "score": 509299.431605
+            },
+            "T5-large-v1.1-lm-adapt": {
+                "model_name": "T5-large-v1.1-lm-adapt",
+                "score": 696701.243798
+            },
+            "T5-small": {
+                "model_name": "T5-small",
+                "score": 1572.65193
+            },
+            "T5-small-v1.1": {
+                "model_name": "T5-small-v1.1",
+                "score": 506284.721906
+            },
+            "T5-small-v1.1-lm-adapt": {
+                "model_name": "T5-small-v1.1-lm-adapt",
+                "score": 391192.975529
+            },
+            "XLM-100-lang": {
+                "model_name": "XLM-100-lang",
+                "score": 8441.521503
+            },
+            "XLM-17-lang": {
+                "model_name": "XLM-17-lang",
+                "score": 28711.124427
+            },
+            "XLM-RoBERTa-base": {
+                "model_name": "XLM-RoBERTa-base",
+                "score": 514.553932
+            },
+            "XLM-RoBERTa-large": {
+                "model_name": "XLM-RoBERTa-large",
+                "score": 356.051343
+            },
+            "XLM-en": {
+                "model_name": "XLM-en",
+                "score": 360821.763001
+            },
+            "mT5-base": {
+                "model_name": "mT5-base",
+                "score": 3465.528154
+            },
+            "mT5-large": {
+                "model_name": "mT5-large",
+                "score": 1986.244089
+            },
+            "mT5-small": {
+                "model_name": "mT5-small",
+                "score": 5264.617721
+            },
+            "Średnia": {
+                "model_name": "Średnia",
+                "score": 187802.14008674445
+            }
+        }
+    },
+    {
+        "name": "left_context_length_2",
+        "model_names": [
+            "ALBERT-base",
+            "ALBERT-large",
+            "ALBERT-xlarge",
+            "ALBERT-xxlarge",
+            "BERT-base-cased",
+            "BERT-base-multilingual-cased",
+            "BERT-base-multilingual-uncased",
+            "BERT-base-uncased",
+            "BERT-large-cased",
+            "BERT-large-uncased",
+            "BERT-medium-uncased",
+            "BERT-mini-uncased",
+            "BERT-small-uncased",
+            "BERT-tiny-uncased",
+            "BioGPT",
+            "BioMed-RoBERTa-base",
+            "ByT5-base",
+            "ByT5-small",
+            "CamemBERT-base",
+            "Cerebras-GPT-111M",
+            "Cerebras-GPT-256M",
+            "ClinicalBERT",
+            "CodeBERT-base",
+            "DistilBERT-base-cased",
+            "DistilBERT-base-uncased",
+            "DistilGPT-2",
+            "DistilRoBERTa-base",
+            "FLAN-T5-base",
+            "FLAN-T5-large",
+            "FLAN-T5-small",
+            "FinBERT",
+            "GPT-2-base",
+            "GPT-2-large",
+            "GPT-2-medium",
+            "GPT-Neo-125M",
+            "GPT-fr-base",
+            "GPT-fr-small",
+            "German-BERT-base-cased",
+            "LongT5-Local-base",
+            "LongT5-TGlobal-base",
+            "MiniLM-L12-H384-RoBERTa-large",
+            "MiniLM-L12-H384-XLMR-Large",
+            "MiniLM-L6-H384-BERT-base-uncased",
+            "MiniLM-L6-H384-BERT-large-uncased",
+            "MiniLM-L6-H384-RoBERTa-large",
+            "MiniLM-L6-H384-XLMR-Large",
+            "MiniLM-L6-H768-BERT-base-uncased",
+            "MiniLM-L6-H768-BERT-large-uncased",
+            "MiniLM-L6-H768-RoBERTa-large",
+            "MobileBERT-uncased",
+            "OPT-125M",
+            "OPT-350M",
+            "PolishGPT-2-large",
+            "PolishGPT-2-medium",
+            "PolishGPT-2-small",
+            "PolishRoBERT-base",
+            "Pythia-160M",
+            "Pythia-160M-deduped",
+            "Pythia-410M",
+            "Pythia-410M-deduped",
+            "Pythia-70M",
+            "Pythia-70M-deduped",
+            "RoBERTa-base",
+            "RoBERTa-large",
+            "SciBERT-cased",
+            "SciBERT-uncased",
+            "SportsBERT",
+            "Switch-base-8",
+            "T5-base",
+            "T5-base-v1.1",
+            "T5-base-v1.1-lm-adapt",
+            "T5-efficient-base",
+            "T5-efficient-large",
+            "T5-efficient-mini",
+            "T5-efficient-small",
+            "T5-efficient-tiny",
+            "T5-large",
+            "T5-large-v1.1",
+            "T5-large-v1.1-lm-adapt",
+            "T5-small",
+            "T5-small-v1.1",
+            "T5-small-v1.1-lm-adapt",
+            "XLM-100-lang",
+            "XLM-17-lang",
+            "XLM-RoBERTa-base",
+            "XLM-RoBERTa-large",
+            "XLM-en",
+            "mT5-base",
+            "mT5-large",
+            "mT5-small",
+            "Średnia"
+        ],
+        "model_name_to_result": {
+            "ALBERT-base": {
+                "model_name": "ALBERT-base",
+                "score": 1140.518927
+            },
+            "ALBERT-large": {
+                "model_name": "ALBERT-large",
+                "score": 640.202021
+            },
+            "ALBERT-xlarge": {
+                "model_name": "ALBERT-xlarge",
+                "score": 486.263023
+            },
+            "ALBERT-xxlarge": {
+                "model_name": "ALBERT-xxlarge",
+                "score": 481.710926
+            },
+            "BERT-base-cased": {
+                "model_name": "BERT-base-cased",
+                "score": 363.140065
+            },
+            "BERT-base-multilingual-cased": {
+                "model_name": "BERT-base-multilingual-cased",
+                "score": 1522.828927
+            },
+            "BERT-base-multilingual-uncased": {
+                "model_name": "BERT-base-multilingual-uncased",
+                "score": 1126.204938
+            },
+            "BERT-base-uncased": {
+                "model_name": "BERT-base-uncased",
+                "score": 533.856644
+            },
+            "BERT-large-cased": {
+                "model_name": "BERT-large-cased",
+                "score": 260.812201
+            },
+            "BERT-large-uncased": {
+                "model_name": "BERT-large-uncased",
+                "score": 434.860233
+            },
+            "BERT-medium-uncased": {
+                "model_name": "BERT-medium-uncased",
+                "score": 904.729333
+            },
+            "BERT-mini-uncased": {
+                "model_name": "BERT-mini-uncased",
+                "score": 2230.384935
+            },
+            "BERT-small-uncased": {
+                "model_name": "BERT-small-uncased",
+                "score": 1177.787347
+            },
+            "BERT-tiny-uncased": {
+                "model_name": "BERT-tiny-uncased",
+                "score": 7077.191748
+            },
+            "BioGPT": {
+                "model_name": "BioGPT",
+                "score": 9482.385746
+            },
+            "BioMed-RoBERTa-base": {
+                "model_name": "BioMed-RoBERTa-base",
+                "score": 673.381903
+            },
+            "ByT5-base": {
+                "model_name": "ByT5-base",
+                "score": 877129.030451
+            },
+            "ByT5-small": {
+                "model_name": "ByT5-small",
+                "score": 587339.825661
+            },
+            "CamemBERT-base": {
+                "model_name": "CamemBERT-base",
+                "score": 8069.187677
+            },
+            "Cerebras-GPT-111M": {
+                "model_name": "Cerebras-GPT-111M",
+                "score": 6181.58458
+            },
+            "Cerebras-GPT-256M": {
+                "model_name": "Cerebras-GPT-256M",
+                "score": 4517.294789
+            },
+            "ClinicalBERT": {
+                "model_name": "ClinicalBERT",
+                "score": 3939.475397
+            },
+            "CodeBERT-base": {
+                "model_name": "CodeBERT-base",
+                "score": 2504.089286
+            },
+            "DistilBERT-base-cased": {
+                "model_name": "DistilBERT-base-cased",
+                "score": 905.887993
+            },
+            "DistilBERT-base-uncased": {
+                "model_name": "DistilBERT-base-uncased",
+                "score": 935.032174
+            },
+            "DistilGPT-2": {
+                "model_name": "DistilGPT-2",
+                "score": 4905.061845
+            },
+            "DistilRoBERTa-base": {
+                "model_name": "DistilRoBERTa-base",
+                "score": 363.664408
+            },
+            "FLAN-T5-base": {
+                "model_name": "FLAN-T5-base",
+                "score": 118373.137399
+            },
+            "FLAN-T5-large": {
+                "model_name": "FLAN-T5-large",
+                "score": 594254.667465
+            },
+            "FLAN-T5-small": {
+                "model_name": "FLAN-T5-small",
+                "score": 335524.161045
+            },
+            "FinBERT": {
+                "model_name": "FinBERT",
+                "score": 3184.287747
+            },
+            "GPT-2-base": {
+                "model_name": "GPT-2-base",
+                "score": 3218.071201
+            },
+            "GPT-2-large": {
+                "model_name": "GPT-2-large",
+                "score": 2283.698849
+            },
+            "GPT-2-medium": {
+                "model_name": "GPT-2-medium",
+                "score": 2517.698002
+            },
+            "GPT-Neo-125M": {
+                "model_name": "GPT-Neo-125M",
+                "score": 3806.950309
+            },
+            "GPT-fr-base": {
+                "model_name": "GPT-fr-base",
+                "score": 42383.662548
+            },
+            "GPT-fr-small": {
+                "model_name": "GPT-fr-small",
+                "score": 31785.553128
+            },
+            "German-BERT-base-cased": {
+                "model_name": "German-BERT-base-cased",
+                "score": 35559.962426
+            },
+            "LongT5-Local-base": {
+                "model_name": "LongT5-Local-base",
+                "score": 1008876.909997
+            },
+            "LongT5-TGlobal-base": {
+                "model_name": "LongT5-TGlobal-base",
+                "score": 192849.378183
+            },
+            "MiniLM-L12-H384-RoBERTa-large": {
+                "model_name": "MiniLM-L12-H384-RoBERTa-large",
+                "score": 869367.707203
+            },
+            "MiniLM-L12-H384-XLMR-Large": {
+                "model_name": "MiniLM-L12-H384-XLMR-Large",
+                "score": 867920.506725
+            },
+            "MiniLM-L6-H384-BERT-base-uncased": {
+                "model_name": "MiniLM-L6-H384-BERT-base-uncased",
+                "score": 872741.524663
+            },
+            "MiniLM-L6-H384-BERT-large-uncased": {
+                "model_name": "MiniLM-L6-H384-BERT-large-uncased",
+                "score": 866060.757671
+            },
+            "MiniLM-L6-H384-RoBERTa-large": {
+                "model_name": "MiniLM-L6-H384-RoBERTa-large",
+                "score": 872604.607809
+            },
+            "MiniLM-L6-H384-XLMR-Large": {
+                "model_name": "MiniLM-L6-H384-XLMR-Large",
+                "score": 869863.441852
+            },
+            "MiniLM-L6-H768-BERT-base-uncased": {
+                "model_name": "MiniLM-L6-H768-BERT-base-uncased",
+                "score": 869574.921853
+            },
+            "MiniLM-L6-H768-BERT-large-uncased": {
+                "model_name": "MiniLM-L6-H768-BERT-large-uncased",
+                "score": 862873.955374
+            },
+            "MiniLM-L6-H768-RoBERTa-large": {
+                "model_name": "MiniLM-L6-H768-RoBERTa-large",
+                "score": 874486.346497
+            },
+            "MobileBERT-uncased": {
+                "model_name": "MobileBERT-uncased",
+                "score": 614.934731
+            },
+            "OPT-125M": {
+                "model_name": "OPT-125M",
+                "score": 3050.18524
+            },
+            "OPT-350M": {
+                "model_name": "OPT-350M",
+                "score": 2614.590595
+            },
+            "PolishGPT-2-large": {
+                "model_name": "PolishGPT-2-large",
+                "score": 47568.65335
+            },
+            "PolishGPT-2-medium": {
+                "model_name": "PolishGPT-2-medium",
+                "score": 54605.079835
+            },
+            "PolishGPT-2-small": {
+                "model_name": "PolishGPT-2-small",
+                "score": 69893.764318
+            },
+            "PolishRoBERT-base": {
+                "model_name": "PolishRoBERT-base",
+                "score": 23474.359985
+            },
+            "Pythia-160M": {
+                "model_name": "Pythia-160M",
+                "score": 4538.043207
+            },
+            "Pythia-160M-deduped": {
+                "model_name": "Pythia-160M-deduped",
+                "score": 4163.357602
+            },
+            "Pythia-410M": {
+                "model_name": "Pythia-410M",
+                "score": 3131.479643
+            },
+            "Pythia-410M-deduped": {
+                "model_name": "Pythia-410M-deduped",
+                "score": 3000.730973
+            },
+            "Pythia-70M": {
+                "model_name": "Pythia-70M",
+                "score": 7257.921803
+            },
+            "Pythia-70M-deduped": {
+                "model_name": "Pythia-70M-deduped",
+                "score": 6549.508054
+            },
+            "RoBERTa-base": {
+                "model_name": "RoBERTa-base",
+                "score": 187.008603
+            },
+            "RoBERTa-large": {
+                "model_name": "RoBERTa-large",
+                "score": 135.816826
+            },
+            "SciBERT-cased": {
+                "model_name": "SciBERT-cased",
+                "score": 1648.440784
+            },
+            "SciBERT-uncased": {
+                "model_name": "SciBERT-uncased",
+                "score": 1319.695008
+            },
+            "SportsBERT": {
+                "model_name": "SportsBERT",
+                "score": 4014.489603
+            },
+            "Switch-base-8": {
+                "model_name": "Switch-base-8",
+                "score": 370.019969
+            },
+            "T5-base": {
+                "model_name": "T5-base",
+                "score": 513.773871
+            },
+            "T5-base-v1.1": {
+                "model_name": "T5-base-v1.1",
+                "score": 504904.932862
+            },
+            "T5-base-v1.1-lm-adapt": {
+                "model_name": "T5-base-v1.1-lm-adapt",
+                "score": 139123.696552
+            },
+            "T5-efficient-base": {
+                "model_name": "T5-efficient-base",
+                "score": 257484.265517
+            },
+            "T5-efficient-large": {
+                "model_name": "T5-efficient-large",
+                "score": 199813.267054
+            },
+            "T5-efficient-mini": {
+                "model_name": "T5-efficient-mini",
+                "score": 507155.695087
+            },
+            "T5-efficient-small": {
+                "model_name": "T5-efficient-small",
+                "score": 437413.891048
+            },
+            "T5-efficient-tiny": {
+                "model_name": "T5-efficient-tiny",
+                "score": 417306.783511
+            },
+            "T5-large": {
+                "model_name": "T5-large",
+                "score": 339.539343
+            },
+            "T5-large-v1.1": {
+                "model_name": "T5-large-v1.1",
+                "score": 507789.616721
+            },
+            "T5-large-v1.1-lm-adapt": {
+                "model_name": "T5-large-v1.1-lm-adapt",
+                "score": 692604.899055
+            },
+            "T5-small": {
+                "model_name": "T5-small",
+                "score": 1394.948525
+            },
+            "T5-small-v1.1": {
+                "model_name": "T5-small-v1.1",
+                "score": 507613.109512
+            },
+            "T5-small-v1.1-lm-adapt": {
+                "model_name": "T5-small-v1.1-lm-adapt",
+                "score": 416433.195192
+            },
+            "XLM-100-lang": {
+                "model_name": "XLM-100-lang",
+                "score": 11712.233819
+            },
+            "XLM-17-lang": {
+                "model_name": "XLM-17-lang",
+                "score": 50631.435156
+            },
+            "XLM-RoBERTa-base": {
+                "model_name": "XLM-RoBERTa-base",
+                "score": 433.787401
+            },
+            "XLM-RoBERTa-large": {
+                "model_name": "XLM-RoBERTa-large",
+                "score": 294.572124
+            },
+            "XLM-en": {
+                "model_name": "XLM-en",
+                "score": 377029.724783
+            },
+            "mT5-base": {
+                "model_name": "mT5-base",
+                "score": 3428.873959
+            },
+            "mT5-large": {
+                "model_name": "mT5-large",
+                "score": 1736.95457
+            },
+            "mT5-small": {
+                "model_name": "mT5-small",
+                "score": 4858.490635
+            },
+            "Średnia": {
+                "model_name": "Średnia",
+                "score": 188928.82297277777
+            }
+        }
+    },
+    {
+        "name": "left_context_length_3",
+        "model_names": [
+            "ALBERT-base",
+            "ALBERT-large",
+            "ALBERT-xlarge",
+            "ALBERT-xxlarge",
+            "BERT-base-cased",
+            "BERT-base-multilingual-cased",
+            "BERT-base-multilingual-uncased",
+            "BERT-base-uncased",
+            "BERT-large-cased",
+            "BERT-large-uncased",
+            "BERT-medium-uncased",
+            "BERT-mini-uncased",
+            "BERT-small-uncased",
+            "BERT-tiny-uncased",
+            "BioGPT",
+            "BioMed-RoBERTa-base",
+            "ByT5-base",
+            "ByT5-small",
+            "CamemBERT-base",
+            "Cerebras-GPT-111M",
+            "Cerebras-GPT-256M",
+            "ClinicalBERT",
+            "CodeBERT-base",
+            "DistilBERT-base-cased",
+            "DistilBERT-base-uncased",
+            "DistilGPT-2",
+            "DistilRoBERTa-base",
+            "FLAN-T5-base",
+            "FLAN-T5-large",
+            "FLAN-T5-small",
+            "FinBERT",
+            "GPT-2-base",
+            "GPT-2-large",
+            "GPT-2-medium",
+            "GPT-Neo-125M",
+            "GPT-fr-base",
+            "GPT-fr-small",
+            "German-BERT-base-cased",
+            "LongT5-Local-base",
+            "LongT5-TGlobal-base",
+            "MiniLM-L12-H384-RoBERTa-large",
+            "MiniLM-L12-H384-XLMR-Large",
+            "MiniLM-L6-H384-BERT-base-uncased",
+            "MiniLM-L6-H384-BERT-large-uncased",
+            "MiniLM-L6-H384-RoBERTa-large",
+            "MiniLM-L6-H384-XLMR-Large",
+            "MiniLM-L6-H768-BERT-base-uncased",
+            "MiniLM-L6-H768-BERT-large-uncased",
+            "MiniLM-L6-H768-RoBERTa-large",
+            "MobileBERT-uncased",
+            "OPT-125M",
+            "OPT-350M",
+            "PolishGPT-2-large",
+            "PolishGPT-2-medium",
+            "PolishGPT-2-small",
+            "PolishRoBERT-base",
+            "Pythia-160M",
+            "Pythia-160M-deduped",
+            "Pythia-410M",
+            "Pythia-410M-deduped",
+            "Pythia-70M",
+            "Pythia-70M-deduped",
+            "RoBERTa-base",
+            "RoBERTa-large",
+            "SciBERT-cased",
+            "SciBERT-uncased",
+            "SportsBERT",
+            "Switch-base-8",
+            "T5-base",
+            "T5-base-v1.1",
+            "T5-base-v1.1-lm-adapt",
+            "T5-efficient-base",
+            "T5-efficient-large",
+            "T5-efficient-mini",
+            "T5-efficient-small",
+            "T5-efficient-tiny",
+            "T5-large",
+            "T5-large-v1.1",
+            "T5-large-v1.1-lm-adapt",
+            "T5-small",
+            "T5-small-v1.1",
+            "T5-small-v1.1-lm-adapt",
+            "XLM-100-lang",
+            "XLM-17-lang",
+            "XLM-RoBERTa-base",
+            "XLM-RoBERTa-large",
+            "XLM-en",
+            "mT5-base",
+            "mT5-large",
+            "mT5-small",
+            "Średnia"
+        ],
+        "model_name_to_result": {
+            "ALBERT-base": {
+                "model_name": "ALBERT-base",
+                "score": 1458.934997
+            },
+            "ALBERT-large": {
+                "model_name": "ALBERT-large",
+                "score": 822.33464
+            },
+            "ALBERT-xlarge": {
+                "model_name": "ALBERT-xlarge",
+                "score": 631.219275
+            },
+            "ALBERT-xxlarge": {
+                "model_name": "ALBERT-xxlarge",
+                "score": 624.143955
+            },
+            "BERT-base-cased": {
+                "model_name": "BERT-base-cased",
+                "score": 414.810853
+            },
+            "BERT-base-multilingual-cased": {
+                "model_name": "BERT-base-multilingual-cased",
+                "score": 1454.791213
+            },
+            "BERT-base-multilingual-uncased": {
+                "model_name": "BERT-base-multilingual-uncased",
+                "score": 1309.346406
+            },
+            "BERT-base-uncased": {
+                "model_name": "BERT-base-uncased",
+                "score": 657.206962
+            },
+            "BERT-large-cased": {
+                "model_name": "BERT-large-cased",
+                "score": 309.207635
+            },
+            "BERT-large-uncased": {
+                "model_name": "BERT-large-uncased",
+                "score": 545.828884
+            },
+            "BERT-medium-uncased": {
+                "model_name": "BERT-medium-uncased",
+                "score": 1022.114275
+            },
+            "BERT-mini-uncased": {
+                "model_name": "BERT-mini-uncased",
+                "score": 2399.438816
+            },
+            "BERT-small-uncased": {
+                "model_name": "BERT-small-uncased",
+                "score": 1325.280355
+            },
+            "BERT-tiny-uncased": {
+                "model_name": "BERT-tiny-uncased",
+                "score": 6845.230626
+            },
+            "BioGPT": {
+                "model_name": "BioGPT",
+                "score": 8434.661137
+            },
+            "BioMed-RoBERTa-base": {
+                "model_name": "BioMed-RoBERTa-base",
+                "score": 778.488951
+            },
+            "ByT5-base": {
+                "model_name": "ByT5-base",
+                "score": 877026.285489
+            },
+            "ByT5-small": {
+                "model_name": "ByT5-small",
+                "score": 552599.37278
+            },
+            "CamemBERT-base": {
+                "model_name": "CamemBERT-base",
+                "score": 8142.132775
+            },
+            "Cerebras-GPT-111M": {
+                "model_name": "Cerebras-GPT-111M",
+                "score": 5372.201953
+            },
+            "Cerebras-GPT-256M": {
+                "model_name": "Cerebras-GPT-256M",
+                "score": 3862.178179
+            },
+            "ClinicalBERT": {
+                "model_name": "ClinicalBERT",
+                "score": 3826.823093
+            },
+            "CodeBERT-base": {
+                "model_name": "CodeBERT-base",
+                "score": 2491.478566
+            },
+            "DistilBERT-base-cased": {
+                "model_name": "DistilBERT-base-cased",
+                "score": 1018.335374
+            },
+            "DistilBERT-base-uncased": {
+                "model_name": "DistilBERT-base-uncased",
+                "score": 1156.910499
+            },
+            "DistilGPT-2": {
+                "model_name": "DistilGPT-2",
+                "score": 4244.712109
+            },
+            "DistilRoBERTa-base": {
+                "model_name": "DistilRoBERTa-base",
+                "score": 462.524565
+            },
+            "FLAN-T5-base": {
+                "model_name": "FLAN-T5-base",
+                "score": 125086.332588
+            },
+            "FLAN-T5-large": {
+                "model_name": "FLAN-T5-large",
+                "score": 591942.281149
+            },
+            "FLAN-T5-small": {
+                "model_name": "FLAN-T5-small",
+                "score": 331051.522629
+            },
+            "FinBERT": {
+                "model_name": "FinBERT",
+                "score": 3161.078227
+            },
+            "GPT-2-base": {
+                "model_name": "GPT-2-base",
+                "score": 2959.950709
+            },
+            "GPT-2-large": {
+                "model_name": "GPT-2-large",
+                "score": 2004.501398
+            },
+            "GPT-2-medium": {
+                "model_name": "GPT-2-medium",
+                "score": 2280.671643
+            },
+            "GPT-Neo-125M": {
+                "model_name": "GPT-Neo-125M",
+                "score": 3318.415488
+            },
+            "GPT-fr-base": {
+                "model_name": "GPT-fr-base",
+                "score": 35979.076891
+            },
+            "GPT-fr-small": {
+                "model_name": "GPT-fr-small",
+                "score": 28004.710612
+            },
+            "German-BERT-base-cased": {
+                "model_name": "German-BERT-base-cased",
+                "score": 34143.387702
+            },
+            "LongT5-Local-base": {
+                "model_name": "LongT5-Local-base",
+                "score": 1008708.856561
+            },
+            "LongT5-TGlobal-base": {
+                "model_name": "LongT5-TGlobal-base",
+                "score": 166060.162192
+            },
+            "MiniLM-L12-H384-RoBERTa-large": {
+                "model_name": "MiniLM-L12-H384-RoBERTa-large",
+                "score": 867825.025611
+            },
+            "MiniLM-L12-H384-XLMR-Large": {
+                "model_name": "MiniLM-L12-H384-XLMR-Large",
+                "score": 866999.401172
+            },
+            "MiniLM-L6-H384-BERT-base-uncased": {
+                "model_name": "MiniLM-L6-H384-BERT-base-uncased",
+                "score": 876029.646438
+            },
+            "MiniLM-L6-H384-BERT-large-uncased": {
+                "model_name": "MiniLM-L6-H384-BERT-large-uncased",
+                "score": 863894.581703
+            },
+            "MiniLM-L6-H384-RoBERTa-large": {
+                "model_name": "MiniLM-L6-H384-RoBERTa-large",
+                "score": 875087.426958
+            },
+            "MiniLM-L6-H384-XLMR-Large": {
+                "model_name": "MiniLM-L6-H384-XLMR-Large",
+                "score": 868106.520581
+            },
+            "MiniLM-L6-H768-BERT-base-uncased": {
+                "model_name": "MiniLM-L6-H768-BERT-base-uncased",
+                "score": 873747.622992
+            },
+            "MiniLM-L6-H768-BERT-large-uncased": {
+                "model_name": "MiniLM-L6-H768-BERT-large-uncased",
+                "score": 874976.981724
+            },
+            "MiniLM-L6-H768-RoBERTa-large": {
+                "model_name": "MiniLM-L6-H768-RoBERTa-large",
+                "score": 867005.414802
+            },
+            "MobileBERT-uncased": {
+                "model_name": "MobileBERT-uncased",
+                "score": 724.202494
+            },
+            "OPT-125M": {
+                "model_name": "OPT-125M",
+                "score": 2811.950212
+            },
+            "OPT-350M": {
+                "model_name": "OPT-350M",
+                "score": 2364.010717
+            },
+            "PolishGPT-2-large": {
+                "model_name": "PolishGPT-2-large",
+                "score": 43430.223128
+            },
+            "PolishGPT-2-medium": {
+                "model_name": "PolishGPT-2-medium",
+                "score": 50000.088891
+            },
+            "PolishGPT-2-small": {
+                "model_name": "PolishGPT-2-small",
+                "score": 59528.965972
+            },
+            "PolishRoBERT-base": {
+                "model_name": "PolishRoBERT-base",
+                "score": 21559.005908
+            },
+            "Pythia-160M": {
+                "model_name": "Pythia-160M",
+                "score": 3654.945875
+            },
+            "Pythia-160M-deduped": {
+                "model_name": "Pythia-160M-deduped",
+                "score": 3462.327042
+            },
+            "Pythia-410M": {
+                "model_name": "Pythia-410M",
+                "score": 2444.306936
+            },
+            "Pythia-410M-deduped": {
+                "model_name": "Pythia-410M-deduped",
+                "score": 2393.822048
+            },
+            "Pythia-70M": {
+                "model_name": "Pythia-70M",
+                "score": 5836.578497
+            },
+            "Pythia-70M-deduped": {
+                "model_name": "Pythia-70M-deduped",
+                "score": 5731.873355
+            },
+            "RoBERTa-base": {
+                "model_name": "RoBERTa-base",
+                "score": 240.963795
+            },
+            "RoBERTa-large": {
+                "model_name": "RoBERTa-large",
+                "score": 178.827649
+            },
+            "SciBERT-cased": {
+                "model_name": "SciBERT-cased",
+                "score": 1749.219317
+            },
+            "SciBERT-uncased": {
+                "model_name": "SciBERT-uncased",
+                "score": 1429.228438
+            },
+            "SportsBERT": {
+                "model_name": "SportsBERT",
+                "score": 4559.587165
+            },
+            "Switch-base-8": {
+                "model_name": "Switch-base-8",
+                "score": 488.522314
+            },
+            "T5-base": {
+                "model_name": "T5-base",
+                "score": 642.832354
+            },
+            "T5-base-v1.1": {
+                "model_name": "T5-base-v1.1",
+                "score": 504247.650169
+            },
+            "T5-base-v1.1-lm-adapt": {
+                "model_name": "T5-base-v1.1-lm-adapt",
+                "score": 131068.368012
+            },
+            "T5-efficient-base": {
+                "model_name": "T5-efficient-base",
+                "score": 291539.52763
+            },
+            "T5-efficient-large": {
+                "model_name": "T5-efficient-large",
+                "score": 246430.570247
+            },
+            "T5-efficient-mini": {
+                "model_name": "T5-efficient-mini",
+                "score": 503006.610939
+            },
+            "T5-efficient-small": {
+                "model_name": "T5-efficient-small",
+                "score": 439334.115801
+            },
+            "T5-efficient-tiny": {
+                "model_name": "T5-efficient-tiny",
+                "score": 420369.211093
+            },
+            "T5-large": {
+                "model_name": "T5-large",
+                "score": 440.008183
+            },
+            "T5-large-v1.1": {
+                "model_name": "T5-large-v1.1",
+                "score": 511373.89615
+            },
+            "T5-large-v1.1-lm-adapt": {
+                "model_name": "T5-large-v1.1-lm-adapt",
+                "score": 698840.785492
+            },
+            "T5-small": {
+                "model_name": "T5-small",
+                "score": 1589.184285
+            },
+            "T5-small-v1.1": {
+                "model_name": "T5-small-v1.1",
+                "score": 509590.455046
+            },
+            "T5-small-v1.1-lm-adapt": {
+                "model_name": "T5-small-v1.1-lm-adapt",
+                "score": 383512.904098
+            },
+            "XLM-100-lang": {
+                "model_name": "XLM-100-lang",
+                "score": 7149.619536
+            },
+            "XLM-17-lang": {
+                "model_name": "XLM-17-lang",
+                "score": 23689.727094
+            },
+            "XLM-RoBERTa-base": {
+                "model_name": "XLM-RoBERTa-base",
+                "score": 534.710236
+            },
+            "XLM-RoBERTa-large": {
+                "model_name": "XLM-RoBERTa-large",
+                "score": 375.602449
+            },
+            "XLM-en": {
+                "model_name": "XLM-en",
+                "score": 358048.950945
+            },
+            "mT5-base": {
+                "model_name": "mT5-base",
+                "score": 3451.953593
+            },
+            "mT5-large": {
+                "model_name": "mT5-large",
+                "score": 2092.505295
+            },
+            "mT5-small": {
+                "model_name": "mT5-small",
+                "score": 5481.875936
+            },
+            "Średnia": {
+                "model_name": "Średnia",
+                "score": 187922.32531631112
+            }
+        }
+    },
+    {
+        "name": "left_context_length_4",
+        "model_names": [
+            "ALBERT-base",
+            "ALBERT-large",
+            "ALBERT-xlarge",
+            "ALBERT-xxlarge",
+            "BERT-base-cased",
+            "BERT-base-multilingual-cased",
+            "BERT-base-multilingual-uncased",
+            "BERT-base-uncased",
+            "BERT-large-cased",
+            "BERT-large-uncased",
+            "BERT-medium-uncased",
+            "BERT-mini-uncased",
+            "BERT-small-uncased",
+            "BERT-tiny-uncased",
+            "BioGPT",
+            "BioMed-RoBERTa-base",
+            "ByT5-base",
+            "ByT5-small",
+            "CamemBERT-base",
+            "Cerebras-GPT-111M",
+            "Cerebras-GPT-256M",
+            "ClinicalBERT",
+            "CodeBERT-base",
+            "DistilBERT-base-cased",
+            "DistilBERT-base-uncased",
+            "DistilGPT-2",
+            "DistilRoBERTa-base",
+            "FLAN-T5-base",
+            "FLAN-T5-large",
+            "FLAN-T5-small",
+            "FinBERT",
+            "GPT-2-base",
+            "GPT-2-large",
+            "GPT-2-medium",
+            "GPT-Neo-125M",
+            "GPT-fr-base",
+            "GPT-fr-small",
+            "German-BERT-base-cased",
+            "LongT5-Local-base",
+            "LongT5-TGlobal-base",
+            "MiniLM-L12-H384-RoBERTa-large",
+            "MiniLM-L12-H384-XLMR-Large",
+            "MiniLM-L6-H384-BERT-base-uncased",
+            "MiniLM-L6-H384-BERT-large-uncased",
+            "MiniLM-L6-H384-RoBERTa-large",
+            "MiniLM-L6-H384-XLMR-Large",
+            "MiniLM-L6-H768-BERT-base-uncased",
+            "MiniLM-L6-H768-BERT-large-uncased",
+            "MiniLM-L6-H768-RoBERTa-large",
+            "MobileBERT-uncased",
+            "OPT-125M",
+            "OPT-350M",
+            "PolishGPT-2-large",
+            "PolishGPT-2-medium",
+            "PolishGPT-2-small",
+            "PolishRoBERT-base",
+            "Pythia-160M",
+            "Pythia-160M-deduped",
+            "Pythia-410M",
+            "Pythia-410M-deduped",
+            "Pythia-70M",
+            "Pythia-70M-deduped",
+            "RoBERTa-base",
+            "RoBERTa-large",
+            "SciBERT-cased",
+            "SciBERT-uncased",
+            "SportsBERT",
+            "Switch-base-8",
+            "T5-base",
+            "T5-base-v1.1",
+            "T5-base-v1.1-lm-adapt",
+            "T5-efficient-base",
+            "T5-efficient-large",
+            "T5-efficient-mini",
+            "T5-efficient-small",
+            "T5-efficient-tiny",
+            "T5-large",
+            "T5-large-v1.1",
+            "T5-large-v1.1-lm-adapt",
+            "T5-small",
+            "T5-small-v1.1",
+            "T5-small-v1.1-lm-adapt",
+            "XLM-100-lang",
+            "XLM-17-lang",
+            "XLM-RoBERTa-base",
+            "XLM-RoBERTa-large",
+            "XLM-en",
+            "mT5-base",
+            "mT5-large",
+            "mT5-small",
+            "Średnia"
+        ],
+        "model_name_to_result": {
+            "ALBERT-base": {
+                "model_name": "ALBERT-base",
+                "score": 1159.747338
+            },
+            "ALBERT-large": {
+                "model_name": "ALBERT-large",
+                "score": 633.599299
+            },
+            "ALBERT-xlarge": {
+                "model_name": "ALBERT-xlarge",
+                "score": 483.06841
+            },
+            "ALBERT-xxlarge": {
+                "model_name": "ALBERT-xxlarge",
+                "score": 453.873499
+            },
+            "BERT-base-cased": {
+                "model_name": "BERT-base-cased",
+                "score": 295.661357
+            },
+            "BERT-base-multilingual-cased": {
+                "model_name": "BERT-base-multilingual-cased",
+                "score": 1000.154206
+            },
+            "BERT-base-multilingual-uncased": {
+                "model_name": "BERT-base-multilingual-uncased",
+                "score": 977.238053
+            },
+            "BERT-base-uncased": {
+                "model_name": "BERT-base-uncased",
+                "score": 484.62986
+            },
+            "BERT-large-cased": {
+                "model_name": "BERT-large-cased",
+                "score": 219.702688
+            },
+            "BERT-large-uncased": {
+                "model_name": "BERT-large-uncased",
+                "score": 397.674382
+            },
+            "BERT-medium-uncased": {
+                "model_name": "BERT-medium-uncased",
+                "score": 752.657049
+            },
+            "BERT-mini-uncased": {
+                "model_name": "BERT-mini-uncased",
+                "score": 1758.401608
+            },
+            "BERT-small-uncased": {
+                "model_name": "BERT-small-uncased",
+                "score": 970.519282
+            },
+            "BERT-tiny-uncased": {
+                "model_name": "BERT-tiny-uncased",
+                "score": 5517.729795
+            },
+            "BioGPT": {
+                "model_name": "BioGPT",
+                "score": 5962.665494
+            },
+            "BioMed-RoBERTa-base": {
+                "model_name": "BioMed-RoBERTa-base",
+                "score": 578.935914
+            },
+            "ByT5-base": {
+                "model_name": "ByT5-base",
+                "score": 853034.846602
+            },
+            "ByT5-small": {
+                "model_name": "ByT5-small",
+                "score": 497594.255131
+            },
+            "CamemBERT-base": {
+                "model_name": "CamemBERT-base",
+                "score": 7535.989944
+            },
+            "Cerebras-GPT-111M": {
+                "model_name": "Cerebras-GPT-111M",
+                "score": 4031.485025
+            },
+            "Cerebras-GPT-256M": {
+                "model_name": "Cerebras-GPT-256M",
+                "score": 2807.008455
+            },
+            "ClinicalBERT": {
+                "model_name": "ClinicalBERT",
+                "score": 2652.158097
+            },
+            "CodeBERT-base": {
+                "model_name": "CodeBERT-base",
+                "score": 1761.849597
+            },
+            "DistilBERT-base-cased": {
+                "model_name": "DistilBERT-base-cased",
+                "score": 736.543739
+            },
+            "DistilBERT-base-uncased": {
+                "model_name": "DistilBERT-base-uncased",
+                "score": 878.663726
+            },
+            "DistilGPT-2": {
+                "model_name": "DistilGPT-2",
+                "score": 3174.030488
+            },
+            "DistilRoBERTa-base": {
+                "model_name": "DistilRoBERTa-base",
+                "score": 357.692876
+            },
+            "FLAN-T5-base": {
+                "model_name": "FLAN-T5-base",
+                "score": 112769.665404
+            },
+            "FLAN-T5-large": {
+                "model_name": "FLAN-T5-large",
+                "score": 586861.805988
+            },
+            "FLAN-T5-small": {
+                "model_name": "FLAN-T5-small",
+                "score": 299802.619484
+            },
+            "FinBERT": {
+                "model_name": "FinBERT",
+                "score": 2156.393037
+            },
+            "GPT-2-base": {
+                "model_name": "GPT-2-base",
+                "score": 2146.616864
+            },
+            "GPT-2-large": {
+                "model_name": "GPT-2-large",
+                "score": 1354.24111
+            },
+            "GPT-2-medium": {
+                "model_name": "GPT-2-medium",
+                "score": 1567.787615
+            },
+            "GPT-Neo-125M": {
+                "model_name": "GPT-Neo-125M",
+                "score": 2397.590945
+            },
+            "GPT-fr-base": {
+                "model_name": "GPT-fr-base",
+                "score": 25793.308892
+            },
+            "GPT-fr-small": {
+                "model_name": "GPT-fr-small",
+                "score": 21736.43776
+            },
+            "German-BERT-base-cased": {
+                "model_name": "German-BERT-base-cased",
+                "score": 32712.027479
+            },
+            "LongT5-Local-base": {
+                "model_name": "LongT5-Local-base",
+                "score": 1009177.616268
+            },
+            "LongT5-TGlobal-base": {
+                "model_name": "LongT5-TGlobal-base",
+                "score": 150175.43657
+            },
+            "MiniLM-L12-H384-RoBERTa-large": {
+                "model_name": "MiniLM-L12-H384-RoBERTa-large",
+                "score": 868739.016204
+            },
+            "MiniLM-L12-H384-XLMR-Large": {
+                "model_name": "MiniLM-L12-H384-XLMR-Large",
+                "score": 869449.990832
+            },
+            "MiniLM-L6-H384-BERT-base-uncased": {
+                "model_name": "MiniLM-L6-H384-BERT-base-uncased",
+                "score": 866334.649496
+            },
+            "MiniLM-L6-H384-BERT-large-uncased": {
+                "model_name": "MiniLM-L6-H384-BERT-large-uncased",
+                "score": 869853.200957
+            },
+            "MiniLM-L6-H384-RoBERTa-large": {
+                "model_name": "MiniLM-L6-H384-RoBERTa-large",
+                "score": 872454.948791
+            },
+            "MiniLM-L6-H384-XLMR-Large": {
+                "model_name": "MiniLM-L6-H384-XLMR-Large",
+                "score": 865221.906194
+            },
+            "MiniLM-L6-H768-BERT-base-uncased": {
+                "model_name": "MiniLM-L6-H768-BERT-base-uncased",
+                "score": 868399.754819
+            },
+            "MiniLM-L6-H768-BERT-large-uncased": {
+                "model_name": "MiniLM-L6-H768-BERT-large-uncased",
+                "score": 864298.183173
+            },
+            "MiniLM-L6-H768-RoBERTa-large": {
+                "model_name": "MiniLM-L6-H768-RoBERTa-large",
+                "score": 875702.659924
+            },
+            "MobileBERT-uncased": {
+                "model_name": "MobileBERT-uncased",
+                "score": 534.612276
+            },
+            "OPT-125M": {
+                "model_name": "OPT-125M",
+                "score": 2087.365901
+            },
+            "OPT-350M": {
+                "model_name": "OPT-350M",
+                "score": 1667.100555
+            },
+            "PolishGPT-2-large": {
+                "model_name": "PolishGPT-2-large",
+                "score": 37172.222522
+            },
+            "PolishGPT-2-medium": {
+                "model_name": "PolishGPT-2-medium",
+                "score": 42697.005684
+            },
+            "PolishGPT-2-small": {
+                "model_name": "PolishGPT-2-small",
+                "score": 52431.506962
+            },
+            "PolishRoBERT-base": {
+                "model_name": "PolishRoBERT-base",
+                "score": 18909.682287
+            },
+            "Pythia-160M": {
+                "model_name": "Pythia-160M",
+                "score": 2556.089236
+            },
+            "Pythia-160M-deduped": {
+                "model_name": "Pythia-160M-deduped",
+                "score": 2445.449914
+            },
+            "Pythia-410M": {
+                "model_name": "Pythia-410M",
+                "score": 1631.827407
+            },
+            "Pythia-410M-deduped": {
+                "model_name": "Pythia-410M-deduped",
+                "score": 1596.820932
+            },
+            "Pythia-70M": {
+                "model_name": "Pythia-70M",
+                "score": 4201.245996
+            },
+            "Pythia-70M-deduped": {
+                "model_name": "Pythia-70M-deduped",
+                "score": 4167.869977
+            },
+            "RoBERTa-base": {
+                "model_name": "RoBERTa-base",
+                "score": 179.712358
+            },
+            "RoBERTa-large": {
+                "model_name": "RoBERTa-large",
+                "score": 132.710332
+            },
+            "SciBERT-cased": {
+                "model_name": "SciBERT-cased",
+                "score": 1241.479141
+            },
+            "SciBERT-uncased": {
+                "model_name": "SciBERT-uncased",
+                "score": 1030.691621
+            },
+            "SportsBERT": {
+                "model_name": "SportsBERT",
+                "score": 3268.438625
+            },
+            "Switch-base-8": {
+                "model_name": "Switch-base-8",
+                "score": 380.946976
+            },
+            "T5-base": {
+                "model_name": "T5-base",
+                "score": 486.397718
+            },
+            "T5-base-v1.1": {
+                "model_name": "T5-base-v1.1",
+                "score": 505736.023293
+            },
+            "T5-base-v1.1-lm-adapt": {
+                "model_name": "T5-base-v1.1-lm-adapt",
+                "score": 117122.449458
+            },
+            "T5-efficient-base": {
+                "model_name": "T5-efficient-base",
+                "score": 285584.214537
+            },
+            "T5-efficient-large": {
+                "model_name": "T5-efficient-large",
+                "score": 260296.691281
+            },
+            "T5-efficient-mini": {
+                "model_name": "T5-efficient-mini",
+                "score": 495829.004645
+            },
+            "T5-efficient-small": {
+                "model_name": "T5-efficient-small",
+                "score": 423506.029396
+            },
+            "T5-efficient-tiny": {
+                "model_name": "T5-efficient-tiny",
+                "score": 403543.144362
+            },
+            "T5-large": {
+                "model_name": "T5-large",
+                "score": 335.005404
+            },
+            "T5-large-v1.1": {
+                "model_name": "T5-large-v1.1",
+                "score": 510239.422907
+            },
+            "T5-large-v1.1-lm-adapt": {
+                "model_name": "T5-large-v1.1-lm-adapt",
+                "score": 710555.441722
+            },
+            "T5-small": {
+                "model_name": "T5-small",
+                "score": 1181.836911
+            },
+            "T5-small-v1.1": {
+                "model_name": "T5-small-v1.1",
+                "score": 503086.924247
+            },
+            "T5-small-v1.1-lm-adapt": {
+                "model_name": "T5-small-v1.1-lm-adapt",
+                "score": 348287.097771
+            },
+            "XLM-100-lang": {
+                "model_name": "XLM-100-lang",
+                "score": 2596.718191
+            },
+            "XLM-17-lang": {
+                "model_name": "XLM-17-lang",
+                "score": 6512.284676
+            },
+            "XLM-RoBERTa-base": {
+                "model_name": "XLM-RoBERTa-base",
+                "score": 427.705517
+            },
+            "XLM-RoBERTa-large": {
+                "model_name": "XLM-RoBERTa-large",
+                "score": 303.329458
+            },
+            "XLM-en": {
+                "model_name": "XLM-en",
+                "score": 350122.366624
+            },
+            "mT5-base": {
+                "model_name": "mT5-base",
+                "score": 2663.20048
+            },
+            "mT5-large": {
+                "model_name": "mT5-large",
+                "score": 1810.851204
+            },
+            "mT5-small": {
+                "model_name": "mT5-small",
+                "score": 4511.973725
+            },
+            "Średnia": {
+                "model_name": "Średnia",
+                "score": 184204.30591054444
+            }
+        }
+    }
+]

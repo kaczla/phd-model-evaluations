@@ -1,0 +1,10 @@
+{
+    "checkers": [
+        {
+            "name": "text_length",
+            "invert_checking": false,
+            "min_text_length": 10,
+            "max_text_length": 25
+        }
+    ]
+}

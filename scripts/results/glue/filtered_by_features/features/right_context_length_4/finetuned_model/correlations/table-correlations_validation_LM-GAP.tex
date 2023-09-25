@@ -1,0 +1,28 @@
+\begin{longtable}{| l | l | l | l | l | l | l |}
+\caption{Korelacja wyników neuronowych modeli języka pomiędzy wynikiem zadania zgadywania zamaskowanego słowa oraz wynikami na zbiorze zadań GLUE Benchmark na ograniczonym zbiorze.}\label{table:glue_correlations_validation_lm_gap_feature_right_context_length_4}
+    \\
+    \hline
+    \rotatebox{90}{\textbf{Nazwa zbioru}} & \rotatebox{90}{\parbox{4,5cm}{\textbf{Poprzedni współczynnik korelacji Pearsona}}} & \rotatebox{90}{\parbox{4,5cm}{\textbf{Współczynnik korelacji Pearsona}}} & \rotatebox{90}{\parbox{4,5cm}{\textbf{p-value ze współczynnika korelacji Pearsona}}} & \rotatebox{90}{\parbox{4,5cm}{\textbf{Poprzedni współczynnik korelacji Spearmana}}} & \rotatebox{90}{\parbox{4,5cm}{\textbf{Współczynnik korelacji Spearmana}}} & \rotatebox{90}{\parbox{4,5cm}{\textbf{p-value ze współczynnika korelacji Spearmana}}} \\
+    \hline
+    \textbf{CoLA} & 0.6644 & 0.64 ↓ & 1.43e-07 & 0.8027 & 0.7782 ↓ & 2.72e-12 \\
+    \hline
+    \textbf{MNLI-m} & -0.1212 & -0.1351 ↓ & 2.83e-01 & 0.2972 & 0.2928 ↓ & 1.79e-02 \\
+    \hline
+    \textbf{MNLI-mm} & -0.1131 & -0.1286 ↓ & 3.07e-01 & 0.2961 & 0.2936 ↓ & 1.76e-02 \\
+    \hline
+    \textbf{MRPC} & 0.2008 & 0.1547 ↓ & 2.34e-01 & 0.6824 & 0.6891 ↑ & 8.26e-10 \\
+    \hline
+    \textbf{QNLI} & 0.0446 & 0.0194 ↓ & 8.78e-01 & 0.4462 & 0.4412 ↓ & 2.35e-04 \\
+    \hline
+    \textbf{QQP} & 0.1761 & 0.1085 ↓ & 3.90e-01 & 0.2683 & 0.2708 ↑ & 2.91e-02 \\
+    \hline
+    \textbf{RTE} & 0.4526 & 0.4023 ↓ & 8.94e-04 & 0.6285 & 0.6139 ↓ & 5.39e-08 \\
+    \hline
+    \textbf{SST-2} & 0.2163 & 0.1708 ↓ & 1.74e-01 & 0.5073 & 0.4815 ↓ & 4.90e-05 \\
+    \hline
+    \textbf{STS-B} & 0.567 & 0.4421 ↓ & 2.27e-04 & 0.8178 & 0.8067 ↓ & 5.03e-16 \\
+    \hline
+    \textbf{Średnia} & 0.3523 & 0.2409 ↓ & 5.32e-02 & 0.606 & 0.5917 ↓ & 2.09e-07 \\
+    \hline
+\end{longtable}
+

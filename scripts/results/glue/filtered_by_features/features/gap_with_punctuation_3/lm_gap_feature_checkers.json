@@ -1,0 +1,12 @@
+{
+    "checkers": [
+        {
+            "name": "gap_with_punctuation",
+            "invert_checking": true,
+            "check_start_with_punctuation": false,
+            "check_end_with_punctuation": false,
+            "check_has_punctuation": true,
+            "check_is_punctuation": false
+        }
+    ]
+}

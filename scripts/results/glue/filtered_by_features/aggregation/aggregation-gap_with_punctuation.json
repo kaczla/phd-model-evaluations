@@ -1,0 +1,31 @@
+{
+    "name": "gap_with_punctuation",
+    "data": {
+        "end_with_punctuation": 16494,
+        "has_punctuation": 2297,
+        "is_punctuation": 346,
+        "start_and_end_with_punctuation": 311,
+        "start_with_punctuation": 534
+    },
+    "total": 135612,
+    "statistics": {
+        "total_elements": 0,
+        "max_value": 0.0,
+        "min_value": 0.0,
+        "avg_value": 0.0,
+        "std_value": 0.0
+    },
+    "draw_option": {
+        "visualization_type": "pie",
+        "title_x": "-",
+        "title_y": "-",
+        "other_label_name": "Nie posiada znaków interpunkcyjnych",
+        "map_key_to_label_name": {
+            "start_with_punctuation": "Zaczyna się znakiem interpunkcyjnych",
+            "end_with_punctuation": "Kończy się znakiem interpunkcyjnym",
+            "start_and_end_with_punctuation": "Zaczyna i kończy się znakiem interpunkcyjnym",
+            "has_punctuation": "Posiada znak interpunkcyjny",
+            "is_punctuation": "Składa się ze znaków interpunkcyjnych"
+        }
+    }
+}

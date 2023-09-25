@@ -1,0 +1,82 @@
+{
+    "model_list": [
+        "fine-tuned RoBERTa-base",
+        "fine-tuned RoBERTa-large",
+        "RoBERTa-base",
+        "RoBERTa-large"
+    ],
+    "metrics": {
+        "CoLA": "Matthews correlation",
+        "MNLI-m": "Accuracy",
+        "MNLI-mm": "Accuracy",
+        "MRPC": "F1 score",
+        "QNLI": "Accuracy",
+        "QQP": "F1 score",
+        "RTE": "Accuracy",
+        "SST-2": "Accuracy",
+        "STS-B": "Spearman Correlation",
+        "WNLI": "Accuracy"
+    },
+    "results": {
+        "CoLA": {
+            "fine-tuned RoBERTa-base": 60.0,
+            "fine-tuned RoBERTa-large": null,
+            "RoBERTa-base": 63.6,
+            "RoBERTa-large": 68.0
+        },
+        "MNLI-m": {
+            "fine-tuned RoBERTa-base": null,
+            "fine-tuned RoBERTa-large": null,
+            "RoBERTa-base": 87.6,
+            "RoBERTa-large": 90.2
+        },
+        "MNLI-mm": {
+            "fine-tuned RoBERTa-base": null,
+            "fine-tuned RoBERTa-large": null,
+            "RoBERTa-base": 87.6,
+            "RoBERTa-large": 90.2
+        },
+        "MRPC": {
+            "fine-tuned RoBERTa-base": 93.4,
+            "fine-tuned RoBERTa-large": null,
+            "RoBERTa-base": 90.2,
+            "RoBERTa-large": 90.9
+        },
+        "QNLI": {
+            "fine-tuned RoBERTa-base": 92.1,
+            "fine-tuned RoBERTa-large": null,
+            "RoBERTa-base": 92.8,
+            "RoBERTa-large": 94.7
+        },
+        "QQP": {
+            "fine-tuned RoBERTa-base": 88.3,
+            "fine-tuned RoBERTa-large": null,
+            "RoBERTa-base": 91.9,
+            "RoBERTa-large": 92.2
+        },
+        "RTE": {
+            "fine-tuned RoBERTa-base": 77.2,
+            "fine-tuned RoBERTa-large": null,
+            "RoBERTa-base": 78.7,
+            "RoBERTa-large": 86.6
+        },
+        "SST-2": {
+            "fine-tuned RoBERTa-base": 94.0,
+            "fine-tuned RoBERTa-large": null,
+            "RoBERTa-base": 94.8,
+            "RoBERTa-large": 96.4
+        },
+        "STS-B": {
+            "fine-tuned RoBERTa-base": 90.9,
+            "fine-tuned RoBERTa-large": null,
+            "RoBERTa-base": 91.2,
+            "RoBERTa-large": 92.4
+        },
+        "WNLI": {
+            "fine-tuned RoBERTa-base": 55.7,
+            "fine-tuned RoBERTa-large": null,
+            "RoBERTa-base": null,
+            "RoBERTa-large": 91.3
+        }
+    }
+}

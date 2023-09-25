@@ -1,0 +1,40 @@
+{
+    "glue-lm-gap": {
+        "cola": {
+            "roberta-base": 0.60,
+            "roberta-large": 0.65
+        },
+        "mnli": {
+            "roberta-base": 0.85,
+            "roberta-large": 0.88
+        },
+        "mrpc": {
+            "roberta-base": 0.88,
+            "roberta-large": 0.88
+        },
+        "qnli": {
+            "roberta-base": 0.90,
+            "roberta-large": 0.92
+        },
+        "qqp": {
+            "roberta-base": 0.88,
+            "roberta-large": 0.89
+        },
+        "rte": {
+            "roberta-base": 0.75,
+            "roberta-large": 0.83
+        },
+        "sst2": {
+            "roberta-base": 0.91,
+            "roberta-large": 0.93
+        },
+        "stsb": {
+            "roberta-base": 0.88,
+            "roberta-large": 0.89
+        },
+        "wnli": {
+            "roberta-base": 0.85,
+            "roberta-large": 0.88
+        }
+    }
+}
